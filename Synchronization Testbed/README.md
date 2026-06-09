@@ -1,4 +1,6 @@
 # Synchronization Testbed
+There are so many details for the structure of testbed. So there may many unanswered questions... I will try to answer some of them here. 
+
 
 ![Testbed structure](https://github.com/alphansahin/Over-the-Air-Computation/blob/main/Synchronization%20Testbed/testbedStructure.jpg?raw=true)
 
