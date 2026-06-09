@@ -23,5 +23,5 @@ For phase synchronization, we adopt the PCP strategy (https://arxiv.org/abs/2506
 The EDs and ES communicate with each other using a custom orthogonal frequency-division multiplexing (OFDM)- based physical-layer protocol data unit (PPDU) at 920 MHz in both UL and DL. The PPDU has 192 active subcarriers, uses an inverse discrete Fourier transform (IDFT) size of 256 and a cyclic prefix (CP) length of 64, and is based on BPSK and a 1/2-rate polar code. We refer the reader to (https://ieeexplore.ieee.org/document/10773829/) for further details on the PPDU structure and modulation/coding parameters. We set the sample rate to 5 Msps for all SDRs.
 
 
-By using measurements from the ES, we can obtain the impairment model of the channel, which can be used for the simulation of any OAC protocol (or things like interference alignment etc). The impairment model is shown in the following figure.
+By using measurements from the testbed, we now can obtain an impairment model for coherent OAC, which can be used for the simulation of any OAC scheme (or things like interference alignment etc). The impairment model is shown in the following figure.
 ![Impairment model](https://github.com/alphansahin/Over-the-Air-Computation/blob/main/Synchronization%20Testbed/resultsImpairment.png?raw=true)
