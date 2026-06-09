@@ -1,0 +1,2232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mySim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mySim" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3,915.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="5,793.001 ns"></ZoomEndTime>
+      <Cursor1Time time="4,169.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="455"></NameColumnWidth>
+      <ValueColumnWidth column_width="177"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="group333" type="group">
+      <obj_property name="label">Simulation</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mySim/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/arstn" type="logic">
+         <obj_property name="ElementShortName">arstn</obj_property>
+         <obj_property name="ObjectShortName">arstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/clk_fast" type="logic">
+         <obj_property name="ElementShortName">clk_fast</obj_property>
+         <obj_property name="ObjectShortName">clk_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/arstn_fast" type="logic">
+         <obj_property name="ElementShortName">arstn_fast</obj_property>
+         <obj_property name="ObjectShortName">arstn_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/startTX_r" type="logic">
+         <obj_property name="ElementShortName">startTX_r</obj_property>
+         <obj_property name="ObjectShortName">startTX_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/isLoading" type="logic">
+         <obj_property name="ElementShortName">isLoading</obj_property>
+         <obj_property name="ObjectShortName">isLoading</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/coefReal0" type="array">
+         <obj_property name="ElementShortName">coefReal0[511:0]</obj_property>
+         <obj_property name="ObjectShortName">coefReal0[511:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/coefImag0" type="array">
+         <obj_property name="ElementShortName">coefImag0[511:0]</obj_property>
+         <obj_property name="ObjectShortName">coefImag0[511:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/coefReal1" type="array">
+         <obj_property name="ElementShortName">coefReal1[511:0]</obj_property>
+         <obj_property name="ObjectShortName">coefReal1[511:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/coefImag1" type="array">
+         <obj_property name="ElementShortName">coefImag1[511:0]</obj_property>
+         <obj_property name="ObjectShortName">coefImag1[511:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/coefImag_r" type="array">
+         <obj_property name="ElementShortName">coefImag_r[7:0]</obj_property>
+         <obj_property name="ObjectShortName">coefImag_r[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/coefReal_r" type="array">
+         <obj_property name="ElementShortName">coefReal_r[7:0]</obj_property>
+         <obj_property name="ObjectShortName">coefReal_r[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/params_FIRcoef_addr" type="array">
+         <obj_property name="ElementShortName">params_FIRcoef_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">params_FIRcoef_addr[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/params_FIRcoef_imagValues_wr" type="array">
+         <obj_property name="ElementShortName">params_FIRcoef_imagValues_wr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">params_FIRcoef_imagValues_wr[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/params_FIRcoef_realValues_wr" type="array">
+         <obj_property name="ElementShortName">params_FIRcoef_realValues_wr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">params_FIRcoef_realValues_wr[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/params_FIRcoef_wr" type="logic">
+         <obj_property name="ElementShortName">params_FIRcoef_wr</obj_property>
+         <obj_property name="ObjectShortName">params_FIRcoef_wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_enableRXConf" type="array">
+         <obj_property name="ElementShortName">es_params_enableRXConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_enableRXConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_enableTXConf" type="array">
+         <obj_property name="ElementShortName">es_params_enableTXConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_enableTXConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_isTXPathConf" type="array">
+         <obj_property name="ElementShortName">es_params_isTXPathConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_isTXPathConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_sequenceSelConf" type="array">
+         <obj_property name="ElementShortName">es_params_sequenceSelConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_sequenceSelConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_enablePhaseCorrConf" type="array">
+         <obj_property name="ElementShortName">es_params_enablePhaseCorrConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_enablePhaseCorrConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_enablePhaseEstConf" type="array">
+         <obj_property name="ElementShortName">es_params_enablePhaseEstConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_enablePhaseEstConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_addPhaseBiasConf" type="array">
+         <obj_property name="ElementShortName">es_params_addPhaseBiasConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_addPhaseBiasConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_isConjugatedConf" type="array">
+         <obj_property name="ElementShortName">es_params_isConjugatedConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_isConjugatedConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_numeratorkPhase" type="array">
+         <obj_property name="ElementShortName">es_params_numeratorkPhase[26:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_numeratorkPhase[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_timer1_inSample" type="array">
+         <obj_property name="ElementShortName">es_params_timer1_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_timer1_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_timer2_inSample" type="array">
+         <obj_property name="ElementShortName">es_params_timer2_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_timer2_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_timer3_inSample" type="array">
+         <obj_property name="ElementShortName">es_params_timer3_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_timer3_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_timer4_inSample" type="array">
+         <obj_property name="ElementShortName">es_params_timer4_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_timer4_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRAM_TX_s_tdata" type="array">
+         <obj_property name="ElementShortName">es_IQfromRAM_TX_s_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRAM_TX_s_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRAM_TX_s_tready" type="logic">
+         <obj_property name="ElementShortName">es_IQfromRAM_TX_s_tready</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRAM_TX_s_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRAM_TX_s_tvalid" type="logic">
+         <obj_property name="ElementShortName">es_IQfromRAM_TX_s_tvalid</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRAM_TX_s_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRF_RX_s_tdata" type="array">
+         <obj_property name="ElementShortName">es_IQfromRF_RX_s_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRF_RX_s_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRF_RX_s_tready" type="logic">
+         <obj_property name="ElementShortName">es_IQfromRF_RX_s_tready</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRF_RX_s_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRF_RX_s_tvalid" type="logic">
+         <obj_property name="ElementShortName">es_IQfromRF_RX_s_tvalid</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRF_RX_s_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQtoRAM_RX_m_tdata" type="array">
+         <obj_property name="ElementShortName">es_IQtoRAM_RX_m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">es_IQtoRAM_RX_m_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQtoRAM_RX_m_tvalid" type="logic">
+         <obj_property name="ElementShortName">es_IQtoRAM_RX_m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">es_IQtoRAM_RX_m_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQtoRF_TX_m_tdata" type="array">
+         <obj_property name="ElementShortName">es_IQtoRF_TX_m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">es_IQtoRF_TX_m_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQtoRF_TX_m_tvalid" type="logic">
+         <obj_property name="ElementShortName">es_IQtoRF_TX_m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">es_IQtoRF_TX_m_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_enableRXConf" type="array">
+         <obj_property name="ElementShortName">ed_params_enableRXConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_enableRXConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_enableTXConf" type="array">
+         <obj_property name="ElementShortName">ed_params_enableTXConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_enableTXConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_isTXPathConf" type="array">
+         <obj_property name="ElementShortName">ed_params_isTXPathConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_isTXPathConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_sequenceSelConf" type="array">
+         <obj_property name="ElementShortName">ed_params_sequenceSelConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_sequenceSelConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_enablePhaseCorrConf" type="array">
+         <obj_property name="ElementShortName">ed_params_enablePhaseCorrConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_enablePhaseCorrConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_enablePhaseEstConf" type="array">
+         <obj_property name="ElementShortName">ed_params_enablePhaseEstConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_enablePhaseEstConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_addPhaseBiasConf" type="array">
+         <obj_property name="ElementShortName">ed_params_addPhaseBiasConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_addPhaseBiasConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_isConjugatedConf" type="array">
+         <obj_property name="ElementShortName">ed_params_isConjugatedConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_isConjugatedConf[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_numeratorkPhase" type="array">
+         <obj_property name="ElementShortName">ed_params_numeratorkPhase[26:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_numeratorkPhase[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_timer1_inSample" type="array">
+         <obj_property name="ElementShortName">ed_params_timer1_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_timer1_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_timer2_inSample" type="array">
+         <obj_property name="ElementShortName">ed_params_timer2_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_timer2_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_timer3_inSample" type="array">
+         <obj_property name="ElementShortName">ed_params_timer3_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_timer3_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_timer4_inSample" type="array">
+         <obj_property name="ElementShortName">ed_params_timer4_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_timer4_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRAM_TX_s_tdata_m" type="array">
+         <obj_property name="ElementShortName">es_IQfromRAM_TX_s_tdata_m[31:0]</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRAM_TX_s_tdata_m[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRAM_TX_s_tdata" type="array">
+         <obj_property name="ElementShortName">ed_IQfromRAM_TX_s_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRAM_TX_s_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRAM_TX_s_tready" type="logic">
+         <obj_property name="ElementShortName">ed_IQfromRAM_TX_s_tready</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRAM_TX_s_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRAM_TX_s_tvalid" type="logic">
+         <obj_property name="ElementShortName">ed_IQfromRAM_TX_s_tvalid</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRAM_TX_s_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRF_RX_s_tdata" type="array">
+         <obj_property name="ElementShortName">ed_IQfromRF_RX_s_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRF_RX_s_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRF_RX_s_tready" type="logic">
+         <obj_property name="ElementShortName">ed_IQfromRF_RX_s_tready</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRF_RX_s_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRF_RX_s_tvalid" type="logic">
+         <obj_property name="ElementShortName">ed_IQfromRF_RX_s_tvalid</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRF_RX_s_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQtoRAM_RX_m_tdata" type="array">
+         <obj_property name="ElementShortName">ed_IQtoRAM_RX_m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_IQtoRAM_RX_m_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQtoRAM_RX_m_tvalid" type="logic">
+         <obj_property name="ElementShortName">ed_IQtoRAM_RX_m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">ed_IQtoRAM_RX_m_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQtoRF_TX_m_tdata" type="array">
+         <obj_property name="ElementShortName">ed_IQtoRF_TX_m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_IQtoRF_TX_m_tdata[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQtoRF_TX_m_tvalid" type="logic">
+         <obj_property name="ElementShortName">ed_IQtoRF_TX_m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">ed_IQtoRF_TX_m_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/addr_width" type="other">
+         <obj_property name="ElementShortName">addr_width</obj_property>
+         <obj_property name="ObjectShortName">addr_width</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/data_width" type="other">
+         <obj_property name="ElementShortName">data_width</obj_property>
+         <obj_property name="ObjectShortName">data_width</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/log2_number_Of_FIR_coefficients" type="other">
+         <obj_property name="ElementShortName">log2_number_Of_FIR_coefficients</obj_property>
+         <obj_property name="ObjectShortName">log2_number_Of_FIR_coefficients</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/bitWidth_FIR_coefficients" type="other">
+         <obj_property name="ElementShortName">bitWidth_FIR_coefficients</obj_property>
+         <obj_property name="ObjectShortName">bitWidth_FIR_coefficients</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/clk_period" type="other">
+         <obj_property name="ElementShortName">clk_period</obj_property>
+         <obj_property name="ObjectShortName">clk_period</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/clk_fast_period" type="other">
+         <obj_property name="ElementShortName">clk_fast_period</obj_property>
+         <obj_property name="ObjectShortName">clk_fast_period</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group871" type="group">
+      <obj_property name="label">ES ROM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/arstn" type="logic">
+         <obj_property name="ElementShortName">arstn</obj_property>
+         <obj_property name="ObjectShortName">arstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/ready" type="logic">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/last" type="logic">
+         <obj_property name="ElementShortName">last</obj_property>
+         <obj_property name="ObjectShortName">last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/data" type="array">
+         <obj_property name="ElementShortName">data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/rom2D" type="array">
+         <obj_property name="ElementShortName">rom2D[0:1][0:2047]</obj_property>
+         <obj_property name="ObjectShortName">rom2D[0:1][0:2047]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/address" type="array">
+         <obj_property name="ElementShortName">address[10:0]</obj_property>
+         <obj_property name="ObjectShortName">address[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/data_im" type="array">
+         <obj_property name="ElementShortName">data_im[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_im[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/data_re" type="array">
+         <obj_property name="ElementShortName">data_re[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_re[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/valid_r" type="logic">
+         <obj_property name="ElementShortName">valid_r</obj_property>
+         <obj_property name="ObjectShortName">valid_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/addr_width" type="other">
+         <obj_property name="ElementShortName">addr_width</obj_property>
+         <obj_property name="ObjectShortName">addr_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/data_width" type="other">
+         <obj_property name="ElementShortName">data_width</obj_property>
+         <obj_property name="ObjectShortName">data_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/depth" type="other">
+         <obj_property name="ElementShortName">depth</obj_property>
+         <obj_property name="ObjectShortName">depth</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group887" type="group">
+      <obj_property name="label">ED ROM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/arstn" type="logic">
+         <obj_property name="ElementShortName">arstn</obj_property>
+         <obj_property name="ObjectShortName">arstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/ready" type="logic">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/last" type="logic">
+         <obj_property name="ElementShortName">last</obj_property>
+         <obj_property name="ObjectShortName">last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/data" type="array">
+         <obj_property name="ElementShortName">data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/rom2D" type="array">
+         <obj_property name="ElementShortName">rom2D[0:1][0:2047]</obj_property>
+         <obj_property name="ObjectShortName">rom2D[0:1][0:2047]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/address" type="array">
+         <obj_property name="ElementShortName">address[10:0]</obj_property>
+         <obj_property name="ObjectShortName">address[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/data_im" type="array">
+         <obj_property name="ElementShortName">data_im[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_im[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/data_re" type="array">
+         <obj_property name="ElementShortName">data_re[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_re[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/valid_r" type="logic">
+         <obj_property name="ElementShortName">valid_r</obj_property>
+         <obj_property name="ObjectShortName">valid_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/addr_width" type="other">
+         <obj_property name="ElementShortName">addr_width</obj_property>
+         <obj_property name="ObjectShortName">addr_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/data_width" type="other">
+         <obj_property name="ElementShortName">data_width</obj_property>
+         <obj_property name="ObjectShortName">data_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/depth" type="other">
+         <obj_property name="ElementShortName">depth</obj_property>
+         <obj_property name="ObjectShortName">depth</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group396" type="group">
+      <obj_property name="label">ES_SDRcontroller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/data_IQfromRF_RX_i" type="array">
+         <obj_property name="ElementShortName">data_IQfromRF_RX_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQfromRF_RX_i[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/valid_IQfromRF_RX_i" type="logic">
+         <obj_property name="ElementShortName">valid_IQfromRF_RX_i</obj_property>
+         <obj_property name="ObjectShortName">valid_IQfromRF_RX_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/ready_IQfromRF_RX_o" type="logic">
+         <obj_property name="ElementShortName">ready_IQfromRF_RX_o</obj_property>
+         <obj_property name="ObjectShortName">ready_IQfromRF_RX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/data_IQtoRAM_RX_o" type="array">
+         <obj_property name="ElementShortName">data_IQtoRAM_RX_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQtoRAM_RX_o[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/valid_IQtoRAM_RX_o" type="logic">
+         <obj_property name="ElementShortName">valid_IQtoRAM_RX_o</obj_property>
+         <obj_property name="ObjectShortName">valid_IQtoRAM_RX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/data_IQfromRAM_TX_i" type="array">
+         <obj_property name="ElementShortName">data_IQfromRAM_TX_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQfromRAM_TX_i[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/valid_IQfromRAM_TX_i" type="logic">
+         <obj_property name="ElementShortName">valid_IQfromRAM_TX_i</obj_property>
+         <obj_property name="ObjectShortName">valid_IQfromRAM_TX_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/ready_IQfromRAM_TX_o" type="logic">
+         <obj_property name="ElementShortName">ready_IQfromRAM_TX_o</obj_property>
+         <obj_property name="ObjectShortName">ready_IQfromRAM_TX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/data_IQtoRF_TX_o" type="array">
+         <obj_property name="ElementShortName">data_IQtoRF_TX_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQtoRF_TX_o[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/valid_IQtoRF_TX_o" type="logic">
+         <obj_property name="ElementShortName">valid_IQtoRF_TX_o</obj_property>
+         <obj_property name="ObjectShortName">valid_IQtoRF_TX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/data_IQtoBeRotated_o" type="array">
+         <obj_property name="ElementShortName">data_IQtoBeRotated_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQtoBeRotated_o[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/data_IQrotated_i" type="array">
+         <obj_property name="ElementShortName">data_IQrotated_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQrotated_i[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/IQeffective" type="array">
+         <obj_property name="ElementShortName">IQeffective[23:0]</obj_property>
+         <obj_property name="ObjectShortName">IQeffective[23:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/syncDetected" type="logic">
+         <obj_property name="ElementShortName">syncDetected</obj_property>
+         <obj_property name="ObjectShortName">syncDetected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/timer1_inSample" type="array">
+         <obj_property name="ElementShortName">timer1_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">timer1_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/timer2_inSample" type="array">
+         <obj_property name="ElementShortName">timer2_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">timer2_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/timer3_inSample" type="array">
+         <obj_property name="ElementShortName">timer3_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">timer3_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/timer4_inSample" type="array">
+         <obj_property name="ElementShortName">timer4_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">timer4_inSample[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/enableRXconf" type="array">
+         <obj_property name="ElementShortName">enableRXconf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">enableRXconf[4:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/enableTXconf" type="array">
+         <obj_property name="ElementShortName">enableTXconf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">enableTXconf[4:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/isTXPathConf" type="array">
+         <obj_property name="ElementShortName">isTXPathConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">isTXPathConf[4:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/sequenceSelConf" type="array">
+         <obj_property name="ElementShortName">sequenceSelConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">sequenceSelConf[4:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/enablePhaseEstConf" type="array">
+         <obj_property name="ElementShortName">enablePhaseEstConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">enablePhaseEstConf[4:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/enablePhaseCorrConf" type="array">
+         <obj_property name="ElementShortName">enablePhaseCorrConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">enablePhaseCorrConf[4:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/isConjugatedConf" type="array">
+         <obj_property name="ElementShortName">isConjugatedConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">isConjugatedConf[4:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/addPhaseBiasConf" type="array">
+         <obj_property name="ElementShortName">addPhaseBiasConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addPhaseBiasConf[4:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/numeratorkPhase_i" type="array">
+         <obj_property name="ElementShortName">numeratorkPhase_i[26:0]</obj_property>
+         <obj_property name="ObjectShortName">numeratorkPhase_i[26:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/fifoRX_count" type="array">
+         <obj_property name="ElementShortName">fifoRX_count[14:0]</obj_property>
+         <obj_property name="ObjectShortName">fifoRX_count[14:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/sequenceSel" type="logic">
+         <obj_property name="ElementShortName">sequenceSel</obj_property>
+         <obj_property name="ObjectShortName">sequenceSel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/enablePhaseEst" type="logic">
+         <obj_property name="ElementShortName">enablePhaseEst</obj_property>
+         <obj_property name="ObjectShortName">enablePhaseEst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/isConjugated" type="logic">
+         <obj_property name="ElementShortName">isConjugated</obj_property>
+         <obj_property name="ObjectShortName">isConjugated</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/addPhaseBias" type="logic">
+         <obj_property name="ElementShortName">addPhaseBias</obj_property>
+         <obj_property name="ObjectShortName">addPhaseBias</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/numeratorkPhase_o" type="array">
+         <obj_property name="ElementShortName">numeratorkPhase_o[26:0]</obj_property>
+         <obj_property name="ObjectShortName">numeratorkPhase_o[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/U0/selectTimer" type="array">
+         <obj_property name="ElementShortName">selectTimer[1:0]</obj_property>
+         <obj_property name="ObjectShortName">selectTimer[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/U0/counterSample" type="array">
+         <obj_property name="ElementShortName">counterSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">counterSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/U0/cntDetectionAsMode_r" type="array">
+         <obj_property name="ElementShortName">cntDetectionAsMode_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cntDetectionAsMode_r[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/status_myController" type="array">
+         <obj_property name="ElementShortName">status_myController[63:0]</obj_property>
+         <obj_property name="ObjectShortName">status_myController[63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/arstn" type="logic">
+         <obj_property name="ElementShortName">arstn</obj_property>
+         <obj_property name="ObjectShortName">arstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/IQfromRAM_TX_s" type="protoinst">
+         <obj_property name="ElementShortName">IQfromRAM_TX_s</obj_property>
+         <obj_property name="ObjectShortName">IQfromRAM_TX_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/IQfromRF_RX_s" type="protoinst">
+         <obj_property name="ElementShortName">IQfromRF_RX_s</obj_property>
+         <obj_property name="ObjectShortName">IQfromRF_RX_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/IQtoRAM_RX_m" type="protoinst">
+         <obj_property name="ElementShortName">IQtoRAM_RX_m</obj_property>
+         <obj_property name="ObjectShortName">IQtoRAM_RX_m</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/sdrController_0/IQtoRF_TX_m" type="protoinst">
+         <obj_property name="ElementShortName">IQtoRF_TX_m</obj_property>
+         <obj_property name="ObjectShortName">IQtoRF_TX_m</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group414" type="group">
+      <obj_property name="label">ES_correlator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_IQdata" type="array">
+         <obj_property name="ElementShortName">i_IQdata[23:0]</obj_property>
+         <obj_property name="ObjectShortName">i_IQdata[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_IQdata_wr" type="logic">
+         <obj_property name="ElementShortName">i_IQdata_wr</obj_property>
+         <obj_property name="ObjectShortName">i_IQdata_wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_tdm_counter_fast" type="other">
+         <obj_property name="ElementShortName">r_tdm_counter_fast</obj_property>
+         <obj_property name="ObjectShortName">r_tdm_counter_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_IQdata_fast" type="array">
+         <obj_property name="ElementShortName">r_IQdata_fast[23:0]</obj_property>
+         <obj_property name="ObjectShortName">r_IQdata_fast[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_IQdata_valid_fast" type="logic">
+         <obj_property name="ElementShortName">r_IQdata_valid_fast</obj_property>
+         <obj_property name="ObjectShortName">r_IQdata_valid_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_IQdata_empty_fast" type="logic">
+         <obj_property name="ElementShortName">r_IQdata_empty_fast</obj_property>
+         <obj_property name="ObjectShortName">r_IQdata_empty_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_IQdata_rd_fast" type="logic">
+         <obj_property name="ElementShortName">r_IQdata_rd_fast</obj_property>
+         <obj_property name="ObjectShortName">r_IQdata_rd_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_inPhase_fast" type="array">
+         <obj_property name="ElementShortName">r_inPhase_fast[11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_inPhase_fast[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_quadrature_fast" type="array">
+         <obj_property name="ElementShortName">r_quadrature_fast[11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_quadrature_fast[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_FIR_din_real" type="array">
+         <obj_property name="ElementShortName">r_FIR_din_real[11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIR_din_real[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_FIR_din_imag" type="array">
+         <obj_property name="ElementShortName">r_FIR_din_imag[11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIR_din_imag[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_holdData_counter" type="other">
+         <obj_property name="ElementShortName">r_holdData_counter</obj_property>
+         <obj_property name="ObjectShortName">r_holdData_counter</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_tdm_counter" type="other">
+         <obj_property name="ElementShortName">r_tdm_counter</obj_property>
+         <obj_property name="ObjectShortName">r_tdm_counter</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_delay_line_real" type="array">
+         <obj_property name="ElementShortName">r_delay_line_real[0:63][11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_line_real[0:63][11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_delay_line_imag" type="array">
+         <obj_property name="ElementShortName">r_delay_line_imag[0:63][11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_delay_line_imag[0:63][11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_FIR_dout_real" type="array">
+         <obj_property name="ElementShortName">r_FIR_dout_real[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIR_dout_real[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">-13767500.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">3047300.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_valid" type="logic">
+         <obj_property name="ElementShortName">r_valid</obj_property>
+         <obj_property name="ObjectShortName">r_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_FIR_dout_imag" type="array">
+         <obj_property name="ElementShortName">r_FIR_dout_imag[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIR_dout_imag[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_sequenceNormSquare" type="array">
+         <obj_property name="ElementShortName">r_sequenceNormSquare[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sequenceNormSquare[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_sequenceNormSquare_delayed" type="array">
+         <obj_property name="ElementShortName">r_sequenceNormSquare_delayed[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sequenceNormSquare_delayed[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_fifo_FIR_dout_data_fast" type="array">
+         <obj_property name="ElementShortName">r_fifo_FIR_dout_data_fast[85:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_FIR_dout_data_fast[85:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_fifo_FIR_dout_data" type="array">
+         <obj_property name="ElementShortName">r_fifo_FIR_dout_data[85:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_FIR_dout_data[85:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_real" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_real[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_real[26:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_TDM_beats" type="logic">
+         <obj_property name="ElementShortName">r_TDM_beats</obj_property>
+         <obj_property name="ObjectShortName">r_TDM_beats</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_imag" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_imag[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_imag[26:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_real_delayed" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_real_delayed[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_real_delayed[26:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_imag_delayed" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_imag_delayed[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_imag_delayed[26:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_sequenceNormSquare" type="array">
+         <obj_property name="ElementShortName">r_sequenceNormSquare[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sequenceNormSquare[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_sequenceNormSquare_delayed" type="array">
+         <obj_property name="ElementShortName">r_sequenceNormSquare_delayed[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sequenceNormSquare_delayed[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_xcorrSquare_divided" type="array">
+         <obj_property name="ElementShortName">r_xcorrSquare_divided[36:0]</obj_property>
+         <obj_property name="ObjectShortName">r_xcorrSquare_divided[36:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_xcorrSquare_divided_delayed" type="array">
+         <obj_property name="ElementShortName">r_xcorrSquare_divided_delayed[36:0]</obj_property>
+         <obj_property name="ObjectShortName">r_xcorrSquare_divided_delayed[36:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="group309" type="group">
+         <obj_property name="label">ES_FIFOin</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/rst" type="logic">
+            <obj_property name="ElementShortName">rst</obj_property>
+            <obj_property name="ObjectShortName">rst</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/wr_clk" type="logic">
+            <obj_property name="ElementShortName">wr_clk</obj_property>
+            <obj_property name="ObjectShortName">wr_clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/rd_clk" type="logic">
+            <obj_property name="ElementShortName">rd_clk</obj_property>
+            <obj_property name="ObjectShortName">rd_clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/din" type="array">
+            <obj_property name="ElementShortName">din[23:0]</obj_property>
+            <obj_property name="ObjectShortName">din[23:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/wr_en" type="logic">
+            <obj_property name="ElementShortName">wr_en</obj_property>
+            <obj_property name="ObjectShortName">wr_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/rd_en" type="logic">
+            <obj_property name="ElementShortName">rd_en</obj_property>
+            <obj_property name="ObjectShortName">rd_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/dout" type="array">
+            <obj_property name="ElementShortName">dout[23:0]</obj_property>
+            <obj_property name="ObjectShortName">dout[23:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/full" type="logic">
+            <obj_property name="ElementShortName">full</obj_property>
+            <obj_property name="ObjectShortName">full</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/empty" type="logic">
+            <obj_property name="ElementShortName">empty</obj_property>
+            <obj_property name="ObjectShortName">empty</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/valid" type="logic">
+            <obj_property name="ElementShortName">valid</obj_property>
+            <obj_property name="ObjectShortName">valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/wr_rst_busy" type="logic">
+            <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+            <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_din/rd_rst_busy" type="logic">
+            <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+            <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1403" type="group">
+         <obj_property name="label">ES_FIFOout</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/rst" type="logic">
+            <obj_property name="ElementShortName">rst</obj_property>
+            <obj_property name="ObjectShortName">rst</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/wr_clk" type="logic">
+            <obj_property name="ElementShortName">wr_clk</obj_property>
+            <obj_property name="ObjectShortName">wr_clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/rd_clk" type="logic">
+            <obj_property name="ElementShortName">rd_clk</obj_property>
+            <obj_property name="ObjectShortName">rd_clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/din" type="array">
+            <obj_property name="ElementShortName">din[85:0]</obj_property>
+            <obj_property name="ObjectShortName">din[85:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/wr_en" type="logic">
+            <obj_property name="ElementShortName">wr_en</obj_property>
+            <obj_property name="ObjectShortName">wr_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/rd_en" type="logic">
+            <obj_property name="ElementShortName">rd_en</obj_property>
+            <obj_property name="ObjectShortName">rd_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/dout" type="array">
+            <obj_property name="ElementShortName">dout[85:0]</obj_property>
+            <obj_property name="ObjectShortName">dout[85:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/full" type="logic">
+            <obj_property name="ElementShortName">full</obj_property>
+            <obj_property name="ObjectShortName">full</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/empty" type="logic">
+            <obj_property name="ElementShortName">empty</obj_property>
+            <obj_property name="ObjectShortName">empty</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/valid" type="logic">
+            <obj_property name="ElementShortName">valid</obj_property>
+            <obj_property name="ObjectShortName">valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/wr_rst_busy" type="logic">
+            <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+            <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/fifo_FIR_dout/rd_rst_busy" type="logic">
+            <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+            <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1416" type="group">
+         <obj_property name="label">FIR</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/i_sequenceSel" type="logic">
+            <obj_property name="ElementShortName">i_sequenceSel</obj_property>
+            <obj_property name="ObjectShortName">i_sequenceSel</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/o_FIRcoef_addr" type="array">
+            <obj_property name="ElementShortName">o_FIRcoef_addr[3:0]</obj_property>
+            <obj_property name="ObjectShortName">o_FIRcoef_addr[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/i_coefficientsParellel_real" type="array">
+            <obj_property name="ElementShortName">i_coefficientsParellel_real[63:0]</obj_property>
+            <obj_property name="ObjectShortName">i_coefficientsParellel_real[63:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/i_coefficientsParellel_imag" type="array">
+            <obj_property name="ElementShortName">i_coefficientsParellel_imag[63:0]</obj_property>
+            <obj_property name="ObjectShortName">i_coefficientsParellel_imag[63:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/i_valid" type="logic">
+            <obj_property name="ElementShortName">i_valid</obj_property>
+            <obj_property name="ObjectShortName">i_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/i_FIR_din_real" type="array">
+            <obj_property name="ElementShortName">i_FIR_din_real[11:0]</obj_property>
+            <obj_property name="ObjectShortName">i_FIR_din_real[11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/i_FIR_din_imag" type="array">
+            <obj_property name="ElementShortName">i_FIR_din_imag[11:0]</obj_property>
+            <obj_property name="ObjectShortName">i_FIR_din_imag[11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/o_valid" type="logic">
+            <obj_property name="ElementShortName">o_valid</obj_property>
+            <obj_property name="ObjectShortName">o_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/o_FIR_dout_real" type="array">
+            <obj_property name="ElementShortName">o_FIR_dout_real[26:0]</obj_property>
+            <obj_property name="ObjectShortName">o_FIR_dout_real[26:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/o_FIR_dout_imag" type="array">
+            <obj_property name="ElementShortName">o_FIR_dout_imag[26:0]</obj_property>
+            <obj_property name="ObjectShortName">o_FIR_dout_imag[26:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/o_sequenceNormSquare" type="array">
+            <obj_property name="ElementShortName">o_sequenceNormSquare[31:0]</obj_property>
+            <obj_property name="ObjectShortName">o_sequenceNormSquare[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/i_clk" type="logic">
+            <obj_property name="ElementShortName">i_clk</obj_property>
+            <obj_property name="ObjectShortName">i_clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/i_rstn" type="logic">
+            <obj_property name="ElementShortName">i_rstn</obj_property>
+            <obj_property name="ObjectShortName">i_rstn</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_tdm_counter" type="other">
+            <obj_property name="ElementShortName">r_tdm_counter</obj_property>
+            <obj_property name="ObjectShortName">r_tdm_counter</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_holdData_counter" type="other">
+            <obj_property name="ElementShortName">r_holdData_counter</obj_property>
+            <obj_property name="ObjectShortName">r_holdData_counter</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_TDM_beats" type="logic">
+            <obj_property name="ElementShortName">r_TDM_beats</obj_property>
+            <obj_property name="ObjectShortName">r_TDM_beats</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_FIR_din_real" type="array">
+            <obj_property name="ElementShortName">r_FIR_din_real[11:0]</obj_property>
+            <obj_property name="ObjectShortName">r_FIR_din_real[11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_FIR_din_imag" type="array">
+            <obj_property name="ElementShortName">r_FIR_din_imag[11:0]</obj_property>
+            <obj_property name="ObjectShortName">r_FIR_din_imag[11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_dataParallel_real" type="array">
+            <obj_property name="ElementShortName">r_dataParallel_real[95:0]</obj_property>
+            <obj_property name="ObjectShortName">r_dataParallel_real[95:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_dataParallel_imag" type="array">
+            <obj_property name="ElementShortName">r_dataParallel_imag[95:0]</obj_property>
+            <obj_property name="ObjectShortName">r_dataParallel_imag[95:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_dout_realCoef_realData" type="array">
+            <obj_property name="ElementShortName">r_dout_realCoef_realData[25:0]</obj_property>
+            <obj_property name="ObjectShortName">r_dout_realCoef_realData[25:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_dout_realCoef_imagData" type="array">
+            <obj_property name="ElementShortName">r_dout_realCoef_imagData[25:0]</obj_property>
+            <obj_property name="ObjectShortName">r_dout_realCoef_imagData[25:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_dout_imagCoef_realData" type="array">
+            <obj_property name="ElementShortName">r_dout_imagCoef_realData[25:0]</obj_property>
+            <obj_property name="ObjectShortName">r_dout_imagCoef_realData[25:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_dout_imagCoef_imagData" type="array">
+            <obj_property name="ElementShortName">r_dout_imagCoef_imagData[25:0]</obj_property>
+            <obj_property name="ObjectShortName">r_dout_imagCoef_imagData[25:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_valid_imagCoef_imagData" type="logic">
+            <obj_property name="ElementShortName">r_valid_imagCoef_imagData</obj_property>
+            <obj_property name="ObjectShortName">r_valid_imagCoef_imagData</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_valid" type="logic">
+            <obj_property name="ElementShortName">r_valid</obj_property>
+            <obj_property name="ObjectShortName">r_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_counterSuppress" type="other">
+            <obj_property name="ElementShortName">r_counterSuppress</obj_property>
+            <obj_property name="ObjectShortName">r_counterSuppress</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_FIR_dout_real" type="array">
+            <obj_property name="ElementShortName">r_FIR_dout_real[26:0]</obj_property>
+            <obj_property name="ObjectShortName">r_FIR_dout_real[26:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_FIR_dout_imag" type="array">
+            <obj_property name="ElementShortName">r_FIR_dout_imag[26:0]</obj_property>
+            <obj_property name="ObjectShortName">r_FIR_dout_imag[26:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_delay_line_real" type="array">
+            <obj_property name="ElementShortName">r_delay_line_real[0:63][11:0]</obj_property>
+            <obj_property name="ObjectShortName">r_delay_line_real[0:63][11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_delay_line_imag" type="array">
+            <obj_property name="ElementShortName">r_delay_line_imag[0:63][11:0]</obj_property>
+            <obj_property name="ObjectShortName">r_delay_line_imag[0:63][11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_mux_dout_real" type="array">
+            <obj_property name="ElementShortName">r_mux_dout_real[0:7][11:0]</obj_property>
+            <obj_property name="ObjectShortName">r_mux_dout_real[0:7][11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_mux_dout_imag" type="array">
+            <obj_property name="ElementShortName">r_mux_dout_imag[0:7][11:0]</obj_property>
+            <obj_property name="ObjectShortName">r_mux_dout_imag[0:7][11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_mux_dout_real_in" type="array">
+            <obj_property name="ElementShortName">r_mux_dout_real_in[0:7][11:0]</obj_property>
+            <obj_property name="ObjectShortName">r_mux_dout_real_in[0:7][11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_mux_dout_imag_in" type="array">
+            <obj_property name="ElementShortName">r_mux_dout_imag_in[0:7][11:0]</obj_property>
+            <obj_property name="ObjectShortName">r_mux_dout_imag_in[0:7][11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_sampleAbsSquarePlus" type="array">
+            <obj_property name="ElementShortName">r_sampleAbsSquarePlus[24:0]</obj_property>
+            <obj_property name="ObjectShortName">r_sampleAbsSquarePlus[24:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_sampleAbsSquareMinus" type="array">
+            <obj_property name="ElementShortName">r_sampleAbsSquareMinus[24:0]</obj_property>
+            <obj_property name="ObjectShortName">r_sampleAbsSquareMinus[24:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_dinMinus_real" type="array">
+            <obj_property name="ElementShortName">r_dinMinus_real[11:0]</obj_property>
+            <obj_property name="ObjectShortName">r_dinMinus_real[11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_dinMinus_imag" type="array">
+            <obj_property name="ElementShortName">r_dinMinus_imag[11:0]</obj_property>
+            <obj_property name="ObjectShortName">r_dinMinus_imag[11:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_sequenceNormSquare" type="array">
+            <obj_property name="ElementShortName">r_sequenceNormSquare[31:0]</obj_property>
+            <obj_property name="ObjectShortName">r_sequenceNormSquare[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/r_sequenceNormSquare_delayed" type="array">
+            <obj_property name="ElementShortName">r_sequenceNormSquare_delayed[31:0]</obj_property>
+            <obj_property name="ObjectShortName">r_sequenceNormSquare_delayed[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/COEFRAM_ADDRB_WIDTH" type="other">
+            <obj_property name="ElementShortName">COEFRAM_ADDRB_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">COEFRAM_ADDRB_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/TDM_RATE" type="other">
+            <obj_property name="ElementShortName">TDM_RATE</obj_property>
+            <obj_property name="ObjectShortName">TDM_RATE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/INPUT_DATA_WIDTH" type="other">
+            <obj_property name="ElementShortName">INPUT_DATA_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">INPUT_DATA_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/COEFF_WIDTH" type="other">
+            <obj_property name="ElementShortName">COEFF_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">COEFF_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/NUMBER_OF_TAPS" type="other">
+            <obj_property name="ElementShortName">NUMBER_OF_TAPS</obj_property>
+            <obj_property name="ObjectShortName">NUMBER_OF_TAPS</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/CLOG2_NUMBER_OF_TAPS" type="other">
+            <obj_property name="ElementShortName">CLOG2_NUMBER_OF_TAPS</obj_property>
+            <obj_property name="ObjectShortName">CLOG2_NUMBER_OF_TAPS</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/NUMBER_OF_PARALLEL_MACS" type="other">
+            <obj_property name="ElementShortName">NUMBER_OF_PARALLEL_MACS</obj_property>
+            <obj_property name="ObjectShortName">NUMBER_OF_PARALLEL_MACS</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/DOUT_FIR_REAL_WIDTH" type="other">
+            <obj_property name="ElementShortName">DOUT_FIR_REAL_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">DOUT_FIR_REAL_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/DOUT_FIR_COMPLEX_WIDTH" type="other">
+            <obj_property name="ElementShortName">DOUT_FIR_COMPLEX_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">DOUT_FIR_COMPLEX_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/ADDRB_BASE_WIDTH" type="other">
+            <obj_property name="ElementShortName">ADDRB_BASE_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">ADDRB_BASE_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/COEFFICIENTS_READ_PARALLEL_WIDTH" type="other">
+            <obj_property name="ElementShortName">COEFFICIENTS_READ_PARALLEL_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">COEFFICIENTS_READ_PARALLEL_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/DATA_READ_PARALLEL_WIDTH" type="other">
+            <obj_property name="ElementShortName">DATA_READ_PARALLEL_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">DATA_READ_PARALLEL_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/myFIR_inst/NORM_SQUARE_WIDTH" type="other">
+            <obj_property name="ElementShortName">NORM_SQUARE_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">NORM_SQUARE_WIDTH</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_FIRcoef_wr" type="logic">
+         <obj_property name="ElementShortName">i_FIRcoef_wr</obj_property>
+         <obj_property name="ObjectShortName">i_FIRcoef_wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_FIRcoef_realValues_wr" type="array">
+         <obj_property name="ElementShortName">i_FIRcoef_realValues_wr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_FIRcoef_realValues_wr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_FIRcoef_addr" type="array">
+         <obj_property name="ElementShortName">i_FIRcoef_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_FIRcoef_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_FIRcoef_imagValues_wr" type="array">
+         <obj_property name="ElementShortName">i_FIRcoef_imagValues_wr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_FIRcoef_imagValues_wr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_FIRcoef_realValues_rd" type="array">
+         <obj_property name="ElementShortName">i_FIRcoef_realValues_rd[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_FIRcoef_realValues_rd[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_FIRcoef_imagValues_rd" type="array">
+         <obj_property name="ElementShortName">i_FIRcoef_imagValues_rd[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_FIRcoef_imagValues_rd[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_sequenceSel" type="logic">
+         <obj_property name="ElementShortName">i_sequenceSel</obj_property>
+         <obj_property name="ObjectShortName">i_sequenceSel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_IQdata" type="array">
+         <obj_property name="ElementShortName">i_IQdata[23:0]</obj_property>
+         <obj_property name="ObjectShortName">i_IQdata[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_IQdata_wr" type="logic">
+         <obj_property name="ElementShortName">i_IQdata_wr</obj_property>
+         <obj_property name="ObjectShortName">i_IQdata_wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_rstn" type="logic">
+         <obj_property name="ElementShortName">i_rstn</obj_property>
+         <obj_property name="ObjectShortName">i_rstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/o_status_myDetector" type="array">
+         <obj_property name="ElementShortName">o_status_myDetector[351:0]</obj_property>
+         <obj_property name="ObjectShortName">o_status_myDetector[351:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/o_FIRdata_real_detected" type="array">
+         <obj_property name="ElementShortName">o_FIRdata_real_detected[26:0]</obj_property>
+         <obj_property name="ObjectShortName">o_FIRdata_real_detected[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/o_FIRdata_imag_detected" type="array">
+         <obj_property name="ElementShortName">o_FIRdata_imag_detected[26:0]</obj_property>
+         <obj_property name="ObjectShortName">o_FIRdata_imag_detected[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/o_detected" type="logic">
+         <obj_property name="ElementShortName">o_detected</obj_property>
+         <obj_property name="ObjectShortName">o_detected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_clk_fast" type="logic">
+         <obj_property name="ElementShortName">i_clk_fast</obj_property>
+         <obj_property name="ObjectShortName">i_clk_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/i_rstn_fast" type="logic">
+         <obj_property name="ElementShortName">i_rstn_fast</obj_property>
+         <obj_property name="ObjectShortName">i_rstn_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_rst_fast" type="logic">
+         <obj_property name="ElementShortName">r_rst_fast</obj_property>
+         <obj_property name="ObjectShortName">r_rst_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_tdm_counter_fast" type="other">
+         <obj_property name="ElementShortName">r_tdm_counter_fast</obj_property>
+         <obj_property name="ObjectShortName">r_tdm_counter_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRcoef_addrb_converted" type="array">
+         <obj_property name="ElementShortName">r_FIRcoef_addrb_converted[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRcoef_addrb_converted[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_coefficientsParellel_real" type="array">
+         <obj_property name="ElementShortName">r_coefficientsParellel_real[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_coefficientsParellel_real[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_coefficientsParellel_imag" type="array">
+         <obj_property name="ElementShortName">r_coefficientsParellel_imag[63:0]</obj_property>
+         <obj_property name="ObjectShortName">r_coefficientsParellel_imag[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_sequenceSel_fast" type="logic">
+         <obj_property name="ElementShortName">r_sequenceSel_fast</obj_property>
+         <obj_property name="ObjectShortName">r_sequenceSel_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_valid_fast" type="logic">
+         <obj_property name="ElementShortName">r_FIRdata_valid_fast</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_valid_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_IQdata_fast" type="array">
+         <obj_property name="ElementShortName">r_IQdata_fast[23:0]</obj_property>
+         <obj_property name="ObjectShortName">r_IQdata_fast[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_inPhase_fast" type="array">
+         <obj_property name="ElementShortName">r_inPhase_fast[11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_inPhase_fast[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_quadrature_fast" type="array">
+         <obj_property name="ElementShortName">r_quadrature_fast[11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_quadrature_fast[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_sequenceNormSquare_fast" type="array">
+         <obj_property name="ElementShortName">r_sequenceNormSquare_fast[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sequenceNormSquare_fast[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_real_fast" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_real_fast[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_real_fast[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_imag_fast" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_imag_fast[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_imag_fast[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_IQdata_full" type="logic">
+         <obj_property name="ElementShortName">r_IQdata_full</obj_property>
+         <obj_property name="ObjectShortName">r_IQdata_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_IQdata_empty_fast" type="logic">
+         <obj_property name="ElementShortName">r_IQdata_empty_fast</obj_property>
+         <obj_property name="ObjectShortName">r_IQdata_empty_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_IQdata_valid_fast" type="logic">
+         <obj_property name="ElementShortName">r_IQdata_valid_fast</obj_property>
+         <obj_property name="ObjectShortName">r_IQdata_valid_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_IQdata_rd_fast" type="logic">
+         <obj_property name="ElementShortName">r_IQdata_rd_fast</obj_property>
+         <obj_property name="ObjectShortName">r_IQdata_rd_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_fifo_FIR_dout_empty" type="logic">
+         <obj_property name="ElementShortName">r_fifo_FIR_dout_empty</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_FIR_dout_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_fifo_FIR_dout_valid" type="logic">
+         <obj_property name="ElementShortName">r_fifo_FIR_dout_valid</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_FIR_dout_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_fifo_FIR_dout_full_fast" type="logic">
+         <obj_property name="ElementShortName">r_fifo_FIR_dout_full_fast</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_FIR_dout_full_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_fifo_FIR_dout_wr_fast" type="logic">
+         <obj_property name="ElementShortName">r_fifo_FIR_dout_wr_fast</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_FIR_dout_wr_fast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_fifo_FIR_dout_data_fast" type="array">
+         <obj_property name="ElementShortName">r_fifo_FIR_dout_data_fast[85:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_FIR_dout_data_fast[85:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_fifo_FIR_dout_data" type="array">
+         <obj_property name="ElementShortName">r_fifo_FIR_dout_data[85:0]</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_FIR_dout_data[85:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_fifo_FIR_dout_rd" type="logic">
+         <obj_property name="ElementShortName">r_fifo_FIR_dout_rd</obj_property>
+         <obj_property name="ObjectShortName">r_fifo_FIR_dout_rd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRcoef_wr" type="array">
+         <obj_property name="ElementShortName">r_FIRcoef_wr[0:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRcoef_wr[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRcoef_realValues_wr" type="array">
+         <obj_property name="ElementShortName">r_FIRcoef_realValues_wr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRcoef_realValues_wr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRcoef_imagValues_wr" type="array">
+         <obj_property name="ElementShortName">r_FIRcoef_imagValues_wr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRcoef_imagValues_wr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRcoef_realValues_rd" type="array">
+         <obj_property name="ElementShortName">r_FIRcoef_realValues_rd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRcoef_realValues_rd[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRcoef_imagValues_rd" type="array">
+         <obj_property name="ElementShortName">r_FIRcoef_imagValues_rd[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRcoef_imagValues_rd[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRcoef_addra_converted" type="array">
+         <obj_property name="ElementShortName">r_FIRcoef_addra_converted[6:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRcoef_addra_converted[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/reOrderedAddr" type="array">
+         <obj_property name="ElementShortName">reOrderedAddr[0:63][5:0]</obj_property>
+         <obj_property name="ObjectShortName">reOrderedAddr[0:63][5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_sequenceSel_pre" type="logic">
+         <obj_property name="ElementShortName">r_sequenceSel_pre</obj_property>
+         <obj_property name="ObjectShortName">r_sequenceSel_pre</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_suppressDetection" type="logic">
+         <obj_property name="ElementShortName">r_suppressDetection</obj_property>
+         <obj_property name="ObjectShortName">r_suppressDetection</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_xcorrSquare_divided" type="array">
+         <obj_property name="ElementShortName">r_xcorrSquare_divided[36:0]</obj_property>
+         <obj_property name="ObjectShortName">r_xcorrSquare_divided[36:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_xcorrSquare_divided_delayed" type="array">
+         <obj_property name="ElementShortName">r_xcorrSquare_divided_delayed[36:0]</obj_property>
+         <obj_property name="ObjectShortName">r_xcorrSquare_divided_delayed[36:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_real" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_real[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_real[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_imag" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_imag[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_imag[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_real_delayed" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_real_delayed[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_real_delayed[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_imag_delayed" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_imag_delayed[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_imag_delayed[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_real_divided" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_real_divided[17:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_real_divided[17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_imag_divided" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_imag_divided[17:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_imag_divided[17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_real_detected" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_real_detected[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_real_detected[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_FIRdata_imag_detected" type="array">
+         <obj_property name="ElementShortName">r_FIRdata_imag_detected[26:0]</obj_property>
+         <obj_property name="ObjectShortName">r_FIRdata_imag_detected[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_sequenceNormSquare" type="array">
+         <obj_property name="ElementShortName">r_sequenceNormSquare[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sequenceNormSquare[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_sequenceNormSquare_delayed" type="array">
+         <obj_property name="ElementShortName">r_sequenceNormSquare_delayed[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sequenceNormSquare_delayed[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_counterSuppress" type="other">
+         <obj_property name="ElementShortName">r_counterSuppress</obj_property>
+         <obj_property name="ObjectShortName">r_counterSuppress</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_counterSlow" type="array">
+         <obj_property name="ElementShortName">r_counterSlow[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_counterSlow[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_counterFast" type="array">
+         <obj_property name="ElementShortName">r_counterFast[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_counterFast[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_counterFast_slow" type="array">
+         <obj_property name="ElementShortName">r_counterFast_slow[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_counterFast_slow[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_normSquare_detected" type="array">
+         <obj_property name="ElementShortName">r_normSquare_detected[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_normSquare_detected[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_xcorrSquareDivided_detected" type="array">
+         <obj_property name="ElementShortName">r_xcorrSquareDivided_detected[36:0]</obj_property>
+         <obj_property name="ObjectShortName">r_xcorrSquareDivided_detected[36:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_stateDetector" type="logic">
+         <obj_property name="ElementShortName">r_stateDetector</obj_property>
+         <obj_property name="ObjectShortName">r_stateDetector</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_cntDetection" type="array">
+         <obj_property name="ElementShortName">r_cntDetection[15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cntDetection[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/r_status_myDetector" type="array">
+         <obj_property name="ElementShortName">r_status_myDetector[0:10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_status_myDetector[0:10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/NUM_STATUS_REGS" type="other">
+         <obj_property name="ElementShortName">NUM_STATUS_REGS</obj_property>
+         <obj_property name="ObjectShortName">NUM_STATUS_REGS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/TDM_RATE" type="other">
+         <obj_property name="ElementShortName">TDM_RATE</obj_property>
+         <obj_property name="ObjectShortName">TDM_RATE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/INPUT_DATA_WIDTH" type="other">
+         <obj_property name="ElementShortName">INPUT_DATA_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">INPUT_DATA_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/COEFF_WIDTH" type="other">
+         <obj_property name="ElementShortName">COEFF_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">COEFF_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/NUMBER_OF_TAPS" type="other">
+         <obj_property name="ElementShortName">NUMBER_OF_TAPS</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_TAPS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/CLOG2_NUMBER_OF_TAPSi" type="other">
+         <obj_property name="ElementShortName">CLOG2_NUMBER_OF_TAPSi</obj_property>
+         <obj_property name="ObjectShortName">CLOG2_NUMBER_OF_TAPSi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/CLOG2_NUMBER_OF_TAPS" type="other">
+         <obj_property name="ElementShortName">CLOG2_NUMBER_OF_TAPS</obj_property>
+         <obj_property name="ObjectShortName">CLOG2_NUMBER_OF_TAPS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/NUMBER_OF_PARALLEL_MACS" type="other">
+         <obj_property name="ElementShortName">NUMBER_OF_PARALLEL_MACS</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_PARALLEL_MACS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/NUMBER_OF_COEF_SETS" type="other">
+         <obj_property name="ElementShortName">NUMBER_OF_COEF_SETS</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_COEF_SETS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/CLOG2_NUMBER_OF_COEF_SETS" type="other">
+         <obj_property name="ElementShortName">CLOG2_NUMBER_OF_COEF_SETS</obj_property>
+         <obj_property name="ObjectShortName">CLOG2_NUMBER_OF_COEF_SETS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/NUMBER_OF_BITS_PERCOEF_SETS" type="other">
+         <obj_property name="ElementShortName">NUMBER_OF_BITS_PERCOEF_SETS</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_BITS_PERCOEF_SETS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/NUMBER_OF_BITS_ALLCOEF_SETS" type="other">
+         <obj_property name="ElementShortName">NUMBER_OF_BITS_ALLCOEF_SETS</obj_property>
+         <obj_property name="ObjectShortName">NUMBER_OF_BITS_ALLCOEF_SETS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/ADDRA_BASE_WIDTH" type="other">
+         <obj_property name="ElementShortName">ADDRA_BASE_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">ADDRA_BASE_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/ADDRA_WIDTH" type="other">
+         <obj_property name="ElementShortName">ADDRA_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">ADDRA_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/COEFFICIENTS_READ_PARALLEL_WIDTH" type="other">
+         <obj_property name="ElementShortName">COEFFICIENTS_READ_PARALLEL_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">COEFFICIENTS_READ_PARALLEL_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/ADDRB_BASE_WIDTH" type="other">
+         <obj_property name="ElementShortName">ADDRB_BASE_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">ADDRB_BASE_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/ADDRB_WIDTH" type="other">
+         <obj_property name="ElementShortName">ADDRB_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">ADDRB_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/DOUT_FIR_REAL_WIDTH" type="other">
+         <obj_property name="ElementShortName">DOUT_FIR_REAL_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">DOUT_FIR_REAL_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/DOUT_FIR_COMPLEX_WIDTH" type="other">
+         <obj_property name="ElementShortName">DOUT_FIR_COMPLEX_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">DOUT_FIR_COMPLEX_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/CLOG2_NORMSQUARE_FILTER_COEFS" type="other">
+         <obj_property name="ElementShortName">CLOG2_NORMSQUARE_FILTER_COEFS</obj_property>
+         <obj_property name="ObjectShortName">CLOG2_NORMSQUARE_FILTER_COEFS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/LOG2_OF_1_OVER_THRESHOLD" type="other">
+         <obj_property name="ElementShortName">LOG2_OF_1_OVER_THRESHOLD</obj_property>
+         <obj_property name="ObjectShortName">LOG2_OF_1_OVER_THRESHOLD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/CONSTANT_DIVISION" type="other">
+         <obj_property name="ElementShortName">CONSTANT_DIVISION</obj_property>
+         <obj_property name="ObjectShortName">CONSTANT_DIVISION</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/DOUT_FIR_COMPLEX_WIDTH_AFTER_DIVISION" type="other">
+         <obj_property name="ElementShortName">DOUT_FIR_COMPLEX_WIDTH_AFTER_DIVISION</obj_property>
+         <obj_property name="ObjectShortName">DOUT_FIR_COMPLEX_WIDTH_AFTER_DIVISION</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/XCORR_SQUARE_WIDTH_AFTER_DIVISION" type="other">
+         <obj_property name="ElementShortName">XCORR_SQUARE_WIDTH_AFTER_DIVISION</obj_property>
+         <obj_property name="ObjectShortName">XCORR_SQUARE_WIDTH_AFTER_DIVISION</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/NORM_SQUARE_WIDTH" type="other">
+         <obj_property name="ElementShortName">NORM_SQUARE_WIDTH</obj_property>
+         <obj_property name="ObjectShortName">NORM_SQUARE_WIDTH</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/VAL_SUPPRESS" type="other">
+         <obj_property name="ElementShortName">VAL_SUPPRESS</obj_property>
+         <obj_property name="ObjectShortName">VAL_SUPPRESS</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/myCorrelator_0/U0/ZERO" type="array">
+         <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1624" type="group">
+      <obj_property name="label">ES_phaseSynchronization</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/data_IQtoBeRotated_i" type="array">
+         <obj_property name="ElementShortName">data_IQtoBeRotated_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQtoBeRotated_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/imag_signed_detected_i" type="array">
+         <obj_property name="ElementShortName">imag_signed_detected_i[26:0]</obj_property>
+         <obj_property name="ObjectShortName">imag_signed_detected_i[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/real_signed_detected_i" type="array">
+         <obj_property name="ElementShortName">real_signed_detected_i[26:0]</obj_property>
+         <obj_property name="ObjectShortName">real_signed_detected_i[26:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/isConjugated_r" type="logic">
+         <obj_property name="ElementShortName">isConjugated_r</obj_property>
+         <obj_property name="ObjectShortName">isConjugated_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/enablePhaseEst_r" type="logic">
+         <obj_property name="ElementShortName">enablePhaseEst_r</obj_property>
+         <obj_property name="ObjectShortName">enablePhaseEst_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/syncDetected_i" type="logic">
+         <obj_property name="ElementShortName">syncDetected_i</obj_property>
+         <obj_property name="ObjectShortName">syncDetected_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/status_myPhaseEstimation" type="array">
+         <obj_property name="ElementShortName">status_myPhaseEstimation[31:0]</obj_property>
+         <obj_property name="ObjectShortName">status_myPhaseEstimation[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/isConjugated_i" type="logic">
+         <obj_property name="ElementShortName">isConjugated_i</obj_property>
+         <obj_property name="ObjectShortName">isConjugated_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/enablePhaseEs_i" type="logic">
+         <obj_property name="ElementShortName">enablePhaseEs_i</obj_property>
+         <obj_property name="ObjectShortName">enablePhaseEs_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/addPhaseBias_i" type="logic">
+         <obj_property name="ElementShortName">addPhaseBias_i</obj_property>
+         <obj_property name="ObjectShortName">addPhaseBias_i</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider1745">
+         <obj_property name="label">magnitudeEstimator</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1672" type="group">
+         <obj_property name="label">ES_magnitudeEstimator</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/inPhase_i" type="array">
+            <obj_property name="ElementShortName">inPhase_i[26:0]</obj_property>
+            <obj_property name="ObjectShortName">inPhase_i[26:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/quadrature_i" type="array">
+            <obj_property name="ElementShortName">quadrature_i[26:0]</obj_property>
+            <obj_property name="ObjectShortName">quadrature_i[26:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/magnitude_o" type="array">
+            <obj_property name="ElementShortName">magnitude_o[26:0]</obj_property>
+            <obj_property name="ObjectShortName">magnitude_o[26:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/arstn" type="logic">
+            <obj_property name="ElementShortName">arstn</obj_property>
+            <obj_property name="ObjectShortName">arstn</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/inPhaseAbs_r" type="array">
+            <obj_property name="ElementShortName">inPhaseAbs_r[26:0]</obj_property>
+            <obj_property name="ObjectShortName">inPhaseAbs_r[26:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/quadratureAbs_r" type="array">
+            <obj_property name="ElementShortName">quadratureAbs_r[26:0]</obj_property>
+            <obj_property name="ObjectShortName">quadratureAbs_r[26:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/max_r" type="array">
+            <obj_property name="ElementShortName">max_r[26:0]</obj_property>
+            <obj_property name="ObjectShortName">max_r[26:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/min_r" type="array">
+            <obj_property name="ElementShortName">min_r[26:0]</obj_property>
+            <obj_property name="ObjectShortName">min_r[26:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/alpha_r" type="array">
+            <obj_property name="ElementShortName">alpha_r[13:0]</obj_property>
+            <obj_property name="ObjectShortName">alpha_r[13:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">14</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/beta_r" type="array">
+            <obj_property name="ElementShortName">beta_r[13:0]</obj_property>
+            <obj_property name="ObjectShortName">beta_r[13:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">14</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/magnitude_r" type="array">
+            <obj_property name="ElementShortName">magnitude_r[40:0]</obj_property>
+            <obj_property name="ObjectShortName">magnitude_r[40:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">14</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0/U0/width_in" type="other">
+            <obj_property name="ElementShortName">width_in</obj_property>
+            <obj_property name="ObjectShortName">width_in</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/imag_signed_detected_r" type="array">
+         <obj_property name="ElementShortName">imag_signed_detected_r[26:0]</obj_property>
+         <obj_property name="ObjectShortName">imag_signed_detected_r[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/real_signed_detected_r" type="array">
+         <obj_property name="ElementShortName">real_signed_detected_r[26:0]</obj_property>
+         <obj_property name="ObjectShortName">real_signed_detected_r[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/magnitudeEstimator_0_magnitude_o" type="array">
+         <obj_property name="ElementShortName">magnitudeEstimator_0_magnitude_o[26:0]</obj_property>
+         <obj_property name="ObjectShortName">magnitudeEstimator_0_magnitude_o[26:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider1745">
+         <obj_property name="label">reciprocal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1722" type="group">
+         <obj_property name="label">ES_reciprocal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/valid_o" type="logic">
+            <obj_property name="ElementShortName">valid_o</obj_property>
+            <obj_property name="ObjectShortName">valid_o</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/a" type="array">
+            <obj_property name="ElementShortName">a[26:0]</obj_property>
+            <obj_property name="ObjectShortName">a[26:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/b" type="array">
+            <obj_property name="ElementShortName">b[26:0]</obj_property>
+            <obj_property name="ObjectShortName">b[26:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/k" type="array">
+            <obj_property name="ElementShortName">k[14:0]</obj_property>
+            <obj_property name="ObjectShortName">k[14:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/akRegTestProduct" type="array">
+            <obj_property name="ElementShortName">akRegTestProduct[41:0]</obj_property>
+            <obj_property name="ObjectShortName">akRegTestProduct[41:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/aReg" type="array">
+            <obj_property name="ElementShortName">aReg[26:0]</obj_property>
+            <obj_property name="ObjectShortName">aReg[26:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/bReg" type="array">
+            <obj_property name="ElementShortName">bReg[26:0]</obj_property>
+            <obj_property name="ObjectShortName">bReg[26:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/kReg" type="array">
+            <obj_property name="ElementShortName">kReg[14:0]</obj_property>
+            <obj_property name="ObjectShortName">kReg[14:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/kRegTest" type="array">
+            <obj_property name="ElementShortName">kRegTest[14:0]</obj_property>
+            <obj_property name="ObjectShortName">kRegTest[14:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/kBitPosition" type="array">
+            <obj_property name="ElementShortName">kBitPosition[14:0]</obj_property>
+            <obj_property name="ObjectShortName">kBitPosition[14:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/A_WIDTH" type="other">
+            <obj_property name="ElementShortName">A_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">A_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/B_WIDTH" type="other">
+            <obj_property name="ElementShortName">B_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">B_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/K_WIDTH" type="other">
+            <obj_property name="ElementShortName">K_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">K_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/arstn" type="logic">
+            <obj_property name="ElementShortName">arstn</obj_property>
+            <obj_property name="ObjectShortName">arstn</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/numeratork_i" type="array">
+         <obj_property name="ElementShortName">numeratork_i[26:0]</obj_property>
+         <obj_property name="ObjectShortName">numeratork_i[26:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">26</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/numeratork_i_1" type="array">
+         <obj_property name="ElementShortName">numeratork_i_1[26:0]</obj_property>
+         <obj_property name="ObjectShortName">numeratork_i_1[26:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/a" type="array">
+         <obj_property name="ElementShortName">a[26:0]</obj_property>
+         <obj_property name="ObjectShortName">a[26:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0/U0/b" type="array">
+         <obj_property name="ElementShortName">b[26:0]</obj_property>
+         <obj_property name="ObjectShortName">b[26:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0_k" type="array">
+         <obj_property name="ElementShortName">myReciprocal_0_k[14:0]</obj_property>
+         <obj_property name="ObjectShortName">myReciprocal_0_k[14:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">15</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myReciprocal_0_k" type="array">
+         <obj_property name="ElementShortName">myReciprocal_0_k[14:0]</obj_property>
+         <obj_property name="ObjectShortName">myReciprocal_0_k[14:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">15</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider1748">
+         <obj_property name="label">acos</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1755" type="group">
+         <obj_property name="label">ACOSLUT</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myAcosROM_0/U0/clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myAcosROM_0/U0/address" type="array">
+            <obj_property name="ElementShortName">address[14:0]</obj_property>
+            <obj_property name="ObjectShortName">address[14:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myAcosROM_0/U0/data_o" type="array">
+            <obj_property name="ElementShortName">data_o[19:0]</obj_property>
+            <obj_property name="ObjectShortName">data_o[19:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myAcosROM_0/U0/ADDR_WIDTH" type="other">
+            <obj_property name="ElementShortName">ADDR_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">ADDR_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myAcosROM_0/U0/DATA_WIDTH" type="other">
+            <obj_property name="ElementShortName">DATA_WIDTH</obj_property>
+            <obj_property name="ObjectShortName">DATA_WIDTH</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/myAcosROM_0/U0/DEPTH" type="other">
+            <obj_property name="ElementShortName">DEPTH</obj_property>
+            <obj_property name="ObjectShortName">DEPTH</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/acosMux_afterpadding" type="array">
+         <obj_property name="ElementShortName">acosMux_afterpadding[23:0]</obj_property>
+         <obj_property name="ObjectShortName">acosMux_afterpadding[23:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">21</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/acosMux_o" type="array">
+         <obj_property name="ElementShortName">acosMux_o[19:0]</obj_property>
+         <obj_property name="ObjectShortName">acosMux_o[19:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">17</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider1748">
+         <obj_property name="label">atan_cordic</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/real_signed_detected_r" type="array">
+         <obj_property name="ElementShortName">real_signed_detected_r[26:0]</obj_property>
+         <obj_property name="ObjectShortName">real_signed_detected_r[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/imag_signed_detected_r" type="array">
+         <obj_property name="ElementShortName">imag_signed_detected_r[26:0]</obj_property>
+         <obj_property name="ObjectShortName">imag_signed_detected_r[26:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/phaseEstimationInput_0_data_o" type="array">
+         <obj_property name="ElementShortName">phaseEstimationInput_0_data_o[63:0]</obj_property>
+         <obj_property name="ObjectShortName">phaseEstimationInput_0_data_o[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/atan/m_axis_dout_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_dout_tdata[23:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_dout_tdata[23:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">21</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/atan/m_axis_dout_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_dout_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_dout_tvalid</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider1748">
+         <obj_property name="label">phaseBiasAndConjgate</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group2269" type="group">
+         <obj_property name="label">Adder</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/phaseBiasAndConjugate/A" type="array">
+            <obj_property name="ElementShortName">A[23:0]</obj_property>
+            <obj_property name="ObjectShortName">A[23:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">21</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/phaseBiasAndConjugate/B" type="array">
+            <obj_property name="ElementShortName">B[23:0]</obj_property>
+            <obj_property name="ObjectShortName">B[23:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">21</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/phaseBiasAndConjugate/ADD" type="logic">
+            <obj_property name="ElementShortName">ADD</obj_property>
+            <obj_property name="ObjectShortName">ADD</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/phaseBiasAndConjugate/S" type="array">
+            <obj_property name="ElementShortName">S[23:0]</obj_property>
+            <obj_property name="ObjectShortName">S[23:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">21</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/add_r" type="array">
+         <obj_property name="ElementShortName">add_r[0:0]</obj_property>
+         <obj_property name="ObjectShortName">add_r[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/isConjugated_i" type="logic">
+         <obj_property name="ElementShortName">isConjugated_i</obj_property>
+         <obj_property name="ObjectShortName">isConjugated_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/acosMux_afterpadding" type="array">
+         <obj_property name="ElementShortName">acosMux_afterpadding[23:0]</obj_property>
+         <obj_property name="ObjectShortName">acosMux_afterpadding[23:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">21</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/phase_Estimate" type="array">
+         <obj_property name="ElementShortName">phase_Estimate[23:0]</obj_property>
+         <obj_property name="ObjectShortName">phase_Estimate[23:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">21</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/phaseBiasAndConjugate_S" type="array">
+         <obj_property name="ElementShortName">phaseBiasAndConjugate_S[23:0]</obj_property>
+         <obj_property name="ObjectShortName">phaseBiasAndConjugate_S[23:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">21</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider1748">
+         <obj_property name="label">cosSin</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/cosSin/s_axis_phase_tdata" type="array">
+         <obj_property name="ElementShortName">s_axis_phase_tdata[23:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_phase_tdata[23:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">21</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/cosSinSlicer_dataOut1" type="array">
+         <obj_property name="ElementShortName">cosSinSlicer_dataOut1[19:0]</obj_property>
+         <obj_property name="ObjectShortName">cosSinSlicer_dataOut1[19:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">18</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/cosSinSlicer_dataOut2" type="array">
+         <obj_property name="ElementShortName">cosSinSlicer_dataOut2[19:0]</obj_property>
+         <obj_property name="ObjectShortName">cosSinSlicer_dataOut2[19:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">18</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider1748">
+         <obj_property name="label">rotation</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group2388" type="group">
+         <obj_property name="label">RotationAndScaling</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/cosTheta_i" type="array">
+            <obj_property name="ElementShortName">cosTheta_i[19:0]</obj_property>
+            <obj_property name="ObjectShortName">cosTheta_i[19:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">18</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/sinTheta_i" type="array">
+            <obj_property name="ElementShortName">sinTheta_i[19:0]</obj_property>
+            <obj_property name="ObjectShortName">sinTheta_i[19:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">18</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/data_IQtoBeRotated_i" type="array">
+            <obj_property name="ElementShortName">data_IQtoBeRotated_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_IQtoBeRotated_i[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/dataInphase" type="array">
+            <obj_property name="ElementShortName">dataInphase[15:0]</obj_property>
+            <obj_property name="ObjectShortName">dataInphase[15:0]</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+            <obj_property name="CustomSignalColor">#FF0080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/dataQuadrature" type="array">
+            <obj_property name="ElementShortName">dataQuadrature[15:0]</obj_property>
+            <obj_property name="ObjectShortName">dataQuadrature[15:0]</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#FF0080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/IrSlicerPhase_Dout" type="array">
+            <obj_property name="ElementShortName">IrSlicerPhase_Dout[15:0]</obj_property>
+            <obj_property name="ObjectShortName">IrSlicerPhase_Dout[15:0]</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/QrSlicerPhase_Dout" type="array">
+            <obj_property name="ElementShortName">QrSlicerPhase_Dout[15:0]</obj_property>
+            <obj_property name="ObjectShortName">QrSlicerPhase_Dout[15:0]</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/data_IQrotated_o" type="array">
+            <obj_property name="ElementShortName">data_IQrotated_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_IQrotated_o[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/clk_1" type="logic">
+            <obj_property name="ElementShortName">clk_1</obj_property>
+            <obj_property name="ObjectShortName">clk_1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/data_IQtoBeRotated_i_1" type="array">
+            <obj_property name="ElementShortName">data_IQtoBeRotated_i_1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_IQtoBeRotated_i_1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/multi_I_cos_P" type="array">
+            <obj_property name="ElementShortName">multi_I_cos_P[35:0]</obj_property>
+            <obj_property name="ObjectShortName">multi_I_cos_P[35:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/multi_I_sin_P" type="array">
+            <obj_property name="ElementShortName">multi_I_sin_P[35:0]</obj_property>
+            <obj_property name="ObjectShortName">multi_I_sin_P[35:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/multi_Q_cos_P" type="array">
+            <obj_property name="ElementShortName">multi_Q_cos_P[35:0]</obj_property>
+            <obj_property name="ObjectShortName">multi_Q_cos_P[35:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/multi_Q_sin_P" type="array">
+            <obj_property name="ElementShortName">multi_Q_sin_P[35:0]</obj_property>
+            <obj_property name="ObjectShortName">multi_Q_sin_P[35:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/rotatorConcat_dataOut" type="array">
+            <obj_property name="ElementShortName">rotatorConcat_dataOut[31:0]</obj_property>
+            <obj_property name="ObjectShortName">rotatorConcat_dataOut[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/rotator_adder_S" type="array">
+            <obj_property name="ElementShortName">rotator_adder_S[36:0]</obj_property>
+            <obj_property name="ObjectShortName">rotator_adder_S[36:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling/rotator_substract_S" type="array">
+            <obj_property name="ElementShortName">rotator_substract_S[36:0]</obj_property>
+            <obj_property name="ObjectShortName">rotator_substract_S[36:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/data_IQrotated_o" type="array">
+         <obj_property name="ElementShortName">data_IQrotated_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQrotated_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/arstn_1" type="logic">
+         <obj_property name="ElementShortName">arstn_1</obj_property>
+         <obj_property name="ObjectShortName">arstn_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/clk_1" type="logic">
+         <obj_property name="ElementShortName">clk_1</obj_property>
+         <obj_property name="ObjectShortName">clk_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/data_IQtoBeRotated_i_1" type="array">
+         <obj_property name="ElementShortName">data_IQtoBeRotated_i_1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQtoBeRotated_i_1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/phaseEstimationInput_0_valid_o" type="logic">
+         <obj_property name="ElementShortName">phaseEstimationInput_0_valid_o</obj_property>
+         <obj_property name="ObjectShortName">phaseEstimationInput_0_valid_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/rotatorAndScaling_data_IQrotated_o" type="array">
+         <obj_property name="ElementShortName">rotatorAndScaling_data_IQrotated_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rotatorAndScaling_data_IQrotated_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/selectIn_1" type="logic">
+         <obj_property name="ElementShortName">selectIn_1</obj_property>
+         <obj_property name="ObjectShortName">selectIn_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/syncDetected_r" type="logic">
+         <obj_property name="ElementShortName">syncDetected_r</obj_property>
+         <obj_property name="ObjectShortName">syncDetected_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/xcorrConcat_dataOut" type="array">
+         <obj_property name="ElementShortName">xcorrConcat_dataOut[63:0]</obj_property>
+         <obj_property name="ObjectShortName">xcorrConcat_dataOut[63:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/real_signed_detected_r" type="array">
+      <obj_property name="ElementShortName">real_signed_detected_r[26:0]</obj_property>
+      <obj_property name="ObjectShortName">real_signed_detected_r[26:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mySim/syncIP_ES_i/syncIP_i/phaseCompensation/imag_signed_detected_r" type="array">
+      <obj_property name="ElementShortName">imag_signed_detected_r[26:0]</obj_property>
+      <obj_property name="ObjectShortName">imag_signed_detected_r[26:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

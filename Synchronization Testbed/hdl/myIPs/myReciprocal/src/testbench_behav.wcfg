@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="50.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="350.001 ns"></ZoomEndTime>
+      <Cursor1Time time="289.748 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/a" type="array">
+      <obj_property name="ElementShortName">a[18:0]</obj_property>
+      <obj_property name="ObjectShortName">a[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/b" type="array">
+      <obj_property name="ElementShortName">b[26:0]</obj_property>
+      <obj_property name="ObjectShortName">b[26:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/k" type="array">
+      <obj_property name="ElementShortName">k[7:0]</obj_property>
+      <obj_property name="ObjectShortName">k[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/myReciprocal_instance/aReg" type="array">
+      <obj_property name="ElementShortName">aReg[18:0]</obj_property>
+      <obj_property name="ObjectShortName">aReg[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/myReciprocal_instance/bReg" type="array">
+      <obj_property name="ElementShortName">bReg[26:0]</obj_property>
+      <obj_property name="ObjectShortName">bReg[26:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/myReciprocal_instance/kReg" type="array">
+      <obj_property name="ElementShortName">kReg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kReg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/myReciprocal_instance/akRegTestProduct" type="array">
+      <obj_property name="ElementShortName">akRegTestProduct[26:0]</obj_property>
+      <obj_property name="ObjectShortName">akRegTestProduct[26:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/myReciprocal_instance/kRegTest" type="array">
+      <obj_property name="ElementShortName">kRegTest[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kRegTest[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/myReciprocal_instance/kBitPosition" type="array">
+      <obj_property name="ElementShortName">kBitPosition[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kBitPosition[7:0]</obj_property>
+   </wvobject>
+</wave_config>

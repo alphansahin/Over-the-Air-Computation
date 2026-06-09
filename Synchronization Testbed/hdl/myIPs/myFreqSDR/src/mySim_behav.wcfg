@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mySim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mySim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="182.142 ns"></ZoomStartTime>
+      <ZoomEndTime time="191.200 ns"></ZoomEndTime>
+      <Cursor1Time time="197.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="462"></NameColumnWidth>
+      <ValueColumnWidth column_width="200"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wave_markers>
+      <marker time="208532" label="" />
+   </wave_markers>
+   <wvobject fp_name="group161" type="group">
+      <obj_property name="label">Simulation</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mySim/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/arstn" type="logic">
+         <obj_property name="ElementShortName">arstn</obj_property>
+         <obj_property name="ObjectShortName">arstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_enableRXConf" type="array">
+         <obj_property name="ElementShortName">es_params_enableRXConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_enableRXConf[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_enableTXConf" type="array">
+         <obj_property name="ElementShortName">es_params_enableTXConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_enableTXConf[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_isTXPathConf" type="array">
+         <obj_property name="ElementShortName">es_params_isTXPathConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_isTXPathConf[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_sequenceSelConf" type="array">
+         <obj_property name="ElementShortName">es_params_sequenceSelConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_sequenceSelConf[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_coefImag0" type="array">
+         <obj_property name="ElementShortName">es_params_coefImag0[95:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_coefImag0[95:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_coefImag1" type="array">
+         <obj_property name="ElementShortName">es_params_coefImag1[95:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_coefImag1[95:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_coefReal0" type="array">
+         <obj_property name="ElementShortName">es_params_coefReal0[95:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_coefReal0[95:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_coefReal1" type="array">
+         <obj_property name="ElementShortName">es_params_coefReal1[95:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_coefReal1[95:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_timer1_inSample" type="array">
+         <obj_property name="ElementShortName">es_params_timer1_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_timer1_inSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_timer2_inSample" type="array">
+         <obj_property name="ElementShortName">es_params_timer2_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_timer2_inSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_timer3_inSample" type="array">
+         <obj_property name="ElementShortName">es_params_timer3_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_timer3_inSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_params_timer4_inSample" type="array">
+         <obj_property name="ElementShortName">es_params_timer4_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">es_params_timer4_inSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRAM_TX_s_tdata" type="array">
+         <obj_property name="ElementShortName">es_IQfromRAM_TX_s_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRAM_TX_s_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRAM_TX_s_tready" type="logic">
+         <obj_property name="ElementShortName">es_IQfromRAM_TX_s_tready</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRAM_TX_s_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRAM_TX_s_tvalid" type="logic">
+         <obj_property name="ElementShortName">es_IQfromRAM_TX_s_tvalid</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRAM_TX_s_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRF_RX_s_tdata" type="array">
+         <obj_property name="ElementShortName">es_IQfromRF_RX_s_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRF_RX_s_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRF_RX_s_tready" type="logic">
+         <obj_property name="ElementShortName">es_IQfromRF_RX_s_tready</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRF_RX_s_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQfromRF_RX_s_tvalid" type="logic">
+         <obj_property name="ElementShortName">es_IQfromRF_RX_s_tvalid</obj_property>
+         <obj_property name="ObjectShortName">es_IQfromRF_RX_s_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQtoRAM_RX_m_tdata" type="array">
+         <obj_property name="ElementShortName">es_IQtoRAM_RX_m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">es_IQtoRAM_RX_m_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQtoRAM_RX_m_tvalid" type="logic">
+         <obj_property name="ElementShortName">es_IQtoRAM_RX_m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">es_IQtoRAM_RX_m_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQtoRF_TX_m_tdata" type="array">
+         <obj_property name="ElementShortName">es_IQtoRF_TX_m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">es_IQtoRF_TX_m_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_IQtoRF_TX_m_tvalid" type="logic">
+         <obj_property name="ElementShortName">es_IQtoRF_TX_m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">es_IQtoRF_TX_m_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/es_cntDetection" type="array">
+         <obj_property name="ElementShortName">es_cntDetection[15:0]</obj_property>
+         <obj_property name="ObjectShortName">es_cntDetection[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_enableRXConf" type="array">
+         <obj_property name="ElementShortName">ed_params_enableRXConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_enableRXConf[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_enableTXConf" type="array">
+         <obj_property name="ElementShortName">ed_params_enableTXConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_enableTXConf[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_isTXPathConf" type="array">
+         <obj_property name="ElementShortName">ed_params_isTXPathConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_isTXPathConf[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_sequenceSelConf" type="array">
+         <obj_property name="ElementShortName">ed_params_sequenceSelConf[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_sequenceSelConf[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_coefImag0" type="array">
+         <obj_property name="ElementShortName">ed_params_coefImag0[95:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_coefImag0[95:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_coefImag1" type="array">
+         <obj_property name="ElementShortName">ed_params_coefImag1[95:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_coefImag1[95:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_coefReal0" type="array">
+         <obj_property name="ElementShortName">ed_params_coefReal0[95:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_coefReal0[95:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_coefReal1" type="array">
+         <obj_property name="ElementShortName">ed_params_coefReal1[95:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_coefReal1[95:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_timer1_inSample" type="array">
+         <obj_property name="ElementShortName">ed_params_timer1_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_timer1_inSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_timer2_inSample" type="array">
+         <obj_property name="ElementShortName">ed_params_timer2_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_timer2_inSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_timer3_inSample" type="array">
+         <obj_property name="ElementShortName">ed_params_timer3_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_timer3_inSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_params_timer4_inSample" type="array">
+         <obj_property name="ElementShortName">ed_params_timer4_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_params_timer4_inSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRAM_TX_s_tdata" type="array">
+         <obj_property name="ElementShortName">ed_IQfromRAM_TX_s_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRAM_TX_s_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRAM_TX_s_tready" type="logic">
+         <obj_property name="ElementShortName">ed_IQfromRAM_TX_s_tready</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRAM_TX_s_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRAM_TX_s_tvalid" type="logic">
+         <obj_property name="ElementShortName">ed_IQfromRAM_TX_s_tvalid</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRAM_TX_s_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRF_RX_s_tdata" type="array">
+         <obj_property name="ElementShortName">ed_IQfromRF_RX_s_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRF_RX_s_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRF_RX_s_tready" type="logic">
+         <obj_property name="ElementShortName">ed_IQfromRF_RX_s_tready</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRF_RX_s_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQfromRF_RX_s_tvalid" type="logic">
+         <obj_property name="ElementShortName">ed_IQfromRF_RX_s_tvalid</obj_property>
+         <obj_property name="ObjectShortName">ed_IQfromRF_RX_s_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQtoRAM_RX_m_tdata" type="array">
+         <obj_property name="ElementShortName">ed_IQtoRAM_RX_m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_IQtoRAM_RX_m_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQtoRAM_RX_m_tvalid" type="logic">
+         <obj_property name="ElementShortName">ed_IQtoRAM_RX_m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">ed_IQtoRAM_RX_m_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQtoRF_TX_m_tdata" type="array">
+         <obj_property name="ElementShortName">ed_IQtoRF_TX_m_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_IQtoRF_TX_m_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_IQtoRF_TX_m_tvalid" type="logic">
+         <obj_property name="ElementShortName">ed_IQtoRF_TX_m_tvalid</obj_property>
+         <obj_property name="ObjectShortName">ed_IQtoRF_TX_m_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/ed_cntDetection" type="array">
+         <obj_property name="ElementShortName">ed_cntDetection[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ed_cntDetection[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/addr_width" type="other">
+         <obj_property name="ElementShortName">addr_width</obj_property>
+         <obj_property name="ObjectShortName">addr_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/data_width" type="other">
+         <obj_property name="ElementShortName">data_width</obj_property>
+         <obj_property name="ObjectShortName">data_width</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/log2_number_Of_FIR_coefficients" type="other">
+         <obj_property name="ElementShortName">log2_number_Of_FIR_coefficients</obj_property>
+         <obj_property name="ObjectShortName">log2_number_Of_FIR_coefficients</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/bitWidth_FIR_coefficients" type="other">
+         <obj_property name="ElementShortName">bitWidth_FIR_coefficients</obj_property>
+         <obj_property name="ObjectShortName">bitWidth_FIR_coefficients</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/clk_period" type="other">
+         <obj_property name="ElementShortName">clk_period</obj_property>
+         <obj_property name="ObjectShortName">clk_period</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group177" type="group">
+      <obj_property name="label">ES_ROM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/arstn" type="logic">
+         <obj_property name="ElementShortName">arstn</obj_property>
+         <obj_property name="ObjectShortName">arstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/ready" type="logic">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/last" type="logic">
+         <obj_property name="ElementShortName">last</obj_property>
+         <obj_property name="ObjectShortName">last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/data" type="array">
+         <obj_property name="ElementShortName">data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/rom2D" type="array">
+         <obj_property name="ElementShortName">rom2D[0:1][0:127]</obj_property>
+         <obj_property name="ObjectShortName">rom2D[0:1][0:127]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/address" type="array">
+         <obj_property name="ElementShortName">address[6:0]</obj_property>
+         <obj_property name="ObjectShortName">address[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/data_re" type="array">
+         <obj_property name="ElementShortName">data_re[11:0]</obj_property>
+         <obj_property name="ObjectShortName">data_re[11:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/data_im" type="array">
+         <obj_property name="ElementShortName">data_im[11:0]</obj_property>
+         <obj_property name="ObjectShortName">data_im[11:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+         <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+         <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+         <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+         <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+         <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/valid_r" type="logic">
+         <obj_property name="ElementShortName">valid_r</obj_property>
+         <obj_property name="ObjectShortName">valid_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ES_i/initfile" type="array">
+         <obj_property name="ElementShortName">initfile[1:11]</obj_property>
+         <obj_property name="ObjectShortName">initfile[1:11]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group815" type="group">
+      <obj_property name="label">ES_controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/stateTimer" type="logic">
+         <obj_property name="ElementShortName">stateTimer</obj_property>
+         <obj_property name="ObjectShortName">stateTimer</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/selectTimer" type="array">
+         <obj_property name="ElementShortName">selectTimer[1:0]</obj_property>
+         <obj_property name="ObjectShortName">selectTimer[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/counterSample" type="array">
+         <obj_property name="ElementShortName">counterSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">counterSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/cntDetectionAsMode_r" type="array">
+         <obj_property name="ElementShortName">cntDetectionAsMode_r[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cntDetectionAsMode_r[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/timer_inSample" type="array">
+         <obj_property name="ElementShortName">timer_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">timer_inSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/syncDetected" type="logic">
+         <obj_property name="ElementShortName">syncDetected</obj_property>
+         <obj_property name="ObjectShortName">syncDetected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/enableRX" type="logic">
+         <obj_property name="ElementShortName">enableRX</obj_property>
+         <obj_property name="ObjectShortName">enableRX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/enableTX" type="logic">
+         <obj_property name="ElementShortName">enableTX</obj_property>
+         <obj_property name="ObjectShortName">enableTX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/isTXPath" type="logic">
+         <obj_property name="ElementShortName">isTXPath</obj_property>
+         <obj_property name="ObjectShortName">isTXPath</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/sequenceSel" type="logic">
+         <obj_property name="ElementShortName">sequenceSel</obj_property>
+         <obj_property name="ObjectShortName">sequenceSel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/cntDetectionAsMode" type="array">
+         <obj_property name="ElementShortName">cntDetectionAsMode[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cntDetectionAsMode[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="group976" type="group">
+         <obj_property name="label">FIR_real</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_reload_last" type="logic">
+            <obj_property name="ElementShortName">FIRreal_reload_last</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_reload_last</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_reload_ready" type="logic">
+            <obj_property name="ElementShortName">FIRreal_reload_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_reload_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_reload_valid" type="logic">
+            <obj_property name="ElementShortName">FIRreal_reload_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_reload_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_reload_data" type="array">
+            <obj_property name="ElementShortName">FIRreal_reload_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_reload_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_config_ready" type="logic">
+            <obj_property name="ElementShortName">FIRreal_config_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_config_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_config_valid" type="logic">
+            <obj_property name="ElementShortName">FIRreal_config_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_config_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_config_data" type="array">
+            <obj_property name="ElementShortName">FIRreal_config_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_config_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_data_valid" type="logic">
+            <obj_property name="ElementShortName">FIRreal_data_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_data_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_data_ready" type="logic">
+            <obj_property name="ElementShortName">FIRreal_data_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_data_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_data_data" type="array">
+            <obj_property name="ElementShortName">FIRreal_data_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_data_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_arst_o" type="logic">
+            <obj_property name="ElementShortName">FIRreal_arst_o</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_arst_o</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRreal_coef" type="array">
+            <obj_property name="ElementShortName">FIRreal_coef[95:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_coef[95:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group977" type="group">
+         <obj_property name="label">FIR_im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_reload_last" type="logic">
+            <obj_property name="ElementShortName">FIRimag_reload_last</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_reload_last</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_reload_ready" type="logic">
+            <obj_property name="ElementShortName">FIRimag_reload_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_reload_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_reload_valid" type="logic">
+            <obj_property name="ElementShortName">FIRimag_reload_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_reload_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_reload_data" type="array">
+            <obj_property name="ElementShortName">FIRimag_reload_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_reload_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_config_ready" type="logic">
+            <obj_property name="ElementShortName">FIRimag_config_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_config_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_config_valid" type="logic">
+            <obj_property name="ElementShortName">FIRimag_config_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_config_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_config_data" type="array">
+            <obj_property name="ElementShortName">FIRimag_config_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_config_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_data_valid" type="logic">
+            <obj_property name="ElementShortName">FIRimag_data_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_data_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_data_ready" type="logic">
+            <obj_property name="ElementShortName">FIRimag_data_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_data_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_data_data" type="array">
+            <obj_property name="ElementShortName">FIRimag_data_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_data_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_arst_o" type="logic">
+            <obj_property name="ElementShortName">FIRimag_arst_o</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_arst_o</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/U0/FIRimag_coef" type="array">
+            <obj_property name="ElementShortName">FIRimag_coef[95:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_coef[95:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group2278" type="group">
+         <obj_property name="label">ES Detector</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/detectedRepeat" type="logic">
+            <obj_property name="ElementShortName">detectedRepeat</obj_property>
+            <obj_property name="ObjectShortName">detectedRepeat</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/detectedSingle" type="logic">
+            <obj_property name="ElementShortName">detectedSingle</obj_property>
+            <obj_property name="ObjectShortName">detectedSingle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/xcorrSquare_in" type="array">
+            <obj_property name="ElementShortName">xcorrSquare_in[45:0]</obj_property>
+            <obj_property name="ObjectShortName">xcorrSquare_in[45:0]</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/detectedMemory" type="array">
+            <obj_property name="ElementShortName">detectedMemory[80:0]</obj_property>
+            <obj_property name="ObjectShortName">detectedMemory[80:0]</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/xcorrSquareDivided" type="array">
+            <obj_property name="ElementShortName">xcorrSquareDivided[32:0]</obj_property>
+            <obj_property name="ObjectShortName">xcorrSquareDivided[32:0]</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/normSquare_in" type="array">
+            <obj_property name="ElementShortName">normSquare_in[27:0]</obj_property>
+            <obj_property name="ObjectShortName">normSquare_in[27:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/data_IQfromRF_RX_i" type="array">
+         <obj_property name="ElementShortName">data_IQfromRF_RX_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQfromRF_RX_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/valid_IQfromRF_RX_i" type="logic">
+         <obj_property name="ElementShortName">valid_IQfromRF_RX_i</obj_property>
+         <obj_property name="ObjectShortName">valid_IQfromRF_RX_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/ready_IQfromRF_RX_o" type="logic">
+         <obj_property name="ElementShortName">ready_IQfromRF_RX_o</obj_property>
+         <obj_property name="ObjectShortName">ready_IQfromRF_RX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/data_IQtoRAM_RX_o" type="array">
+         <obj_property name="ElementShortName">data_IQtoRAM_RX_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQtoRAM_RX_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/valid_IQtoRAM_RX_o" type="logic">
+         <obj_property name="ElementShortName">valid_IQtoRAM_RX_o</obj_property>
+         <obj_property name="ObjectShortName">valid_IQtoRAM_RX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/data_IQfromRAM_TX_i" type="array">
+         <obj_property name="ElementShortName">data_IQfromRAM_TX_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQfromRAM_TX_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/valid_IQfromRAM_TX_i" type="logic">
+         <obj_property name="ElementShortName">valid_IQfromRAM_TX_i</obj_property>
+         <obj_property name="ObjectShortName">valid_IQfromRAM_TX_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/ready_IQfromRAM_TX_o" type="logic">
+         <obj_property name="ElementShortName">ready_IQfromRAM_TX_o</obj_property>
+         <obj_property name="ObjectShortName">ready_IQfromRAM_TX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/data_IQtoRF_TX_o" type="array">
+         <obj_property name="ElementShortName">data_IQtoRF_TX_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQtoRF_TX_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/sdrController_0/valid_IQtoRF_TX_o" type="logic">
+         <obj_property name="ElementShortName">valid_IQtoRF_TX_o</obj_property>
+         <obj_property name="ObjectShortName">valid_IQtoRF_TX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="group186" type="group">
+         <obj_property name="label">ES_RXBuffer</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/wr_rst_busy" type="logic">
+            <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+            <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/rd_rst_busy" type="logic">
+            <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+            <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/s_aclk" type="logic">
+            <obj_property name="ElementShortName">s_aclk</obj_property>
+            <obj_property name="ObjectShortName">s_aclk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/s_aresetn" type="logic">
+            <obj_property name="ElementShortName">s_aresetn</obj_property>
+            <obj_property name="ObjectShortName">s_aresetn</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/s_axis_tvalid" type="logic">
+            <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/s_axis_tready" type="logic">
+            <obj_property name="ElementShortName">s_axis_tready</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/s_axis_tdata" type="array">
+            <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/m_axis_tvalid" type="logic">
+            <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/m_axis_tready" type="logic">
+            <obj_property name="ElementShortName">m_axis_tready</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/m_axis_tdata" type="array">
+            <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/axis_data_count" type="array">
+            <obj_property name="ElementShortName">axis_data_count[14:0]</obj_property>
+            <obj_property name="ObjectShortName">axis_data_count[14:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/largeRXBuffer/axis_overflow" type="logic">
+            <obj_property name="ElementShortName">axis_overflow</obj_property>
+            <obj_property name="ObjectShortName">axis_overflow</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group193" type="group">
+      <obj_property name="label">ED_ROM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/arstn" type="logic">
+         <obj_property name="ElementShortName">arstn</obj_property>
+         <obj_property name="ObjectShortName">arstn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/ready" type="logic">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/last" type="logic">
+         <obj_property name="ElementShortName">last</obj_property>
+         <obj_property name="ObjectShortName">last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/data" type="array">
+         <obj_property name="ElementShortName">data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/rom2D" type="array">
+         <obj_property name="ElementShortName">rom2D[0:1][0:127]</obj_property>
+         <obj_property name="ObjectShortName">rom2D[0:1][0:127]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/address" type="array">
+         <obj_property name="ElementShortName">address[6:0]</obj_property>
+         <obj_property name="ObjectShortName">address[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/data_re" type="array">
+         <obj_property name="ElementShortName">data_re[11:0]</obj_property>
+         <obj_property name="ObjectShortName">data_re[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/data_im" type="array">
+         <obj_property name="ElementShortName">data_im[11:0]</obj_property>
+         <obj_property name="ObjectShortName">data_im[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/valid_r" type="logic">
+         <obj_property name="ElementShortName">valid_r</obj_property>
+         <obj_property name="ObjectShortName">valid_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/cyclicROM_ED_i/initfile" type="array">
+         <obj_property name="ElementShortName">initfile[1:11]</obj_property>
+         <obj_property name="ObjectShortName">initfile[1:11]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group824" type="group">
+      <obj_property name="label">ED_contoller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/syncDetected" type="logic">
+         <obj_property name="ElementShortName">syncDetected</obj_property>
+         <obj_property name="ObjectShortName">syncDetected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/enableRX" type="logic">
+         <obj_property name="ElementShortName">enableRX</obj_property>
+         <obj_property name="ObjectShortName">enableRX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/enableTX" type="logic">
+         <obj_property name="ElementShortName">enableTX</obj_property>
+         <obj_property name="ObjectShortName">enableTX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/isTXPath" type="logic">
+         <obj_property name="ElementShortName">isTXPath</obj_property>
+         <obj_property name="ObjectShortName">isTXPath</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/sequenceSel" type="logic">
+         <obj_property name="ElementShortName">sequenceSel</obj_property>
+         <obj_property name="ObjectShortName">sequenceSel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/cntDetectionAsMode" type="array">
+         <obj_property name="ElementShortName">cntDetectionAsMode[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cntDetectionAsMode[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group243" type="group">
+         <obj_property name="label">ED_RXBuffer</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/fir_imag/aclk" type="logic">
+            <obj_property name="ElementShortName">aclk</obj_property>
+            <obj_property name="ObjectShortName">aclk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/wr_rst_busy" type="logic">
+            <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+            <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/rd_rst_busy" type="logic">
+            <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+            <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/s_aclk" type="logic">
+            <obj_property name="ElementShortName">s_aclk</obj_property>
+            <obj_property name="ObjectShortName">s_aclk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/s_aresetn" type="logic">
+            <obj_property name="ElementShortName">s_aresetn</obj_property>
+            <obj_property name="ObjectShortName">s_aresetn</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/s_axis_tvalid" type="logic">
+            <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/s_axis_tready" type="logic">
+            <obj_property name="ElementShortName">s_axis_tready</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/s_axis_tdata" type="array">
+            <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/m_axis_tvalid" type="logic">
+            <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/m_axis_tready" type="logic">
+            <obj_property name="ElementShortName">m_axis_tready</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/m_axis_tdata" type="array">
+            <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/axis_data_count" type="array">
+            <obj_property name="ElementShortName">axis_data_count[14:0]</obj_property>
+            <obj_property name="ObjectShortName">axis_data_count[14:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/largeRXBuffer/axis_overflow" type="logic">
+            <obj_property name="ElementShortName">axis_overflow</obj_property>
+            <obj_property name="ObjectShortName">axis_overflow</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_isConfigurationLoaded_r" type="logic">
+         <obj_property name="ElementShortName">FIRreal_isConfigurationLoaded_r</obj_property>
+         <obj_property name="ObjectShortName">FIRreal_isConfigurationLoaded_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_isConfigurationLoaded_r" type="logic">
+         <obj_property name="ElementShortName">FIRimag_isConfigurationLoaded_r</obj_property>
+         <obj_property name="ObjectShortName">FIRimag_isConfigurationLoaded_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/data_IQfromRF_RX_i" type="array">
+         <obj_property name="ElementShortName">data_IQfromRF_RX_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQfromRF_RX_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/valid_IQfromRF_RX_i" type="logic">
+         <obj_property name="ElementShortName">valid_IQfromRF_RX_i</obj_property>
+         <obj_property name="ObjectShortName">valid_IQfromRF_RX_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/ready_IQfromRF_RX_o" type="logic">
+         <obj_property name="ElementShortName">ready_IQfromRF_RX_o</obj_property>
+         <obj_property name="ObjectShortName">ready_IQfromRF_RX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/data_IQtoRAM_RX_o" type="array">
+         <obj_property name="ElementShortName">data_IQtoRAM_RX_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQtoRAM_RX_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/valid_IQtoRAM_RX_o" type="logic">
+         <obj_property name="ElementShortName">valid_IQtoRAM_RX_o</obj_property>
+         <obj_property name="ObjectShortName">valid_IQtoRAM_RX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/data_IQfromRAM_TX_i" type="array">
+         <obj_property name="ElementShortName">data_IQfromRAM_TX_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQfromRAM_TX_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/valid_IQfromRAM_TX_i" type="logic">
+         <obj_property name="ElementShortName">valid_IQfromRAM_TX_i</obj_property>
+         <obj_property name="ObjectShortName">valid_IQfromRAM_TX_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/ready_IQfromRAM_TX_o" type="logic">
+         <obj_property name="ElementShortName">ready_IQfromRAM_TX_o</obj_property>
+         <obj_property name="ObjectShortName">ready_IQfromRAM_TX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/data_IQtoRF_TX_o" type="array">
+         <obj_property name="ElementShortName">data_IQtoRF_TX_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_IQtoRF_TX_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/valid_IQtoRF_TX_o" type="logic">
+         <obj_property name="ElementShortName">valid_IQtoRF_TX_o</obj_property>
+         <obj_property name="ObjectShortName">valid_IQtoRF_TX_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/stateTimer" type="logic">
+         <obj_property name="ElementShortName">stateTimer</obj_property>
+         <obj_property name="ObjectShortName">stateTimer</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/selectTimer" type="array">
+         <obj_property name="ElementShortName">selectTimer[1:0]</obj_property>
+         <obj_property name="ObjectShortName">selectTimer[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/counterSample" type="array">
+         <obj_property name="ElementShortName">counterSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">counterSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/timer_inSample" type="array">
+         <obj_property name="ElementShortName">timer_inSample[15:0]</obj_property>
+         <obj_property name="ObjectShortName">timer_inSample[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group526" type="group">
+         <obj_property name="label">FIR_re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_reload_last" type="logic">
+            <obj_property name="ElementShortName">FIRreal_reload_last</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_reload_last</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_reload_ready" type="logic">
+            <obj_property name="ElementShortName">FIRreal_reload_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_reload_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_reload_valid" type="logic">
+            <obj_property name="ElementShortName">FIRreal_reload_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_reload_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_reload_data" type="array">
+            <obj_property name="ElementShortName">FIRreal_reload_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_reload_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_config_ready" type="logic">
+            <obj_property name="ElementShortName">FIRreal_config_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_config_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_config_valid" type="logic">
+            <obj_property name="ElementShortName">FIRreal_config_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_config_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_config_data" type="array">
+            <obj_property name="ElementShortName">FIRreal_config_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_config_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_data_valid" type="logic">
+            <obj_property name="ElementShortName">FIRreal_data_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_data_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_data_ready" type="logic">
+            <obj_property name="ElementShortName">FIRreal_data_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_data_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_data_data" type="array">
+            <obj_property name="ElementShortName">FIRreal_data_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_data_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_arst_o" type="logic">
+            <obj_property name="ElementShortName">FIRreal_arst_o</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_arst_o</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRreal_coef" type="array">
+            <obj_property name="ElementShortName">FIRreal_coef[95:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRreal_coef[95:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group931" type="group">
+         <obj_property name="label">FIR_im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_arst_o" type="logic">
+            <obj_property name="ElementShortName">FIRimag_arst_o</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_arst_o</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_reload_last" type="logic">
+            <obj_property name="ElementShortName">FIRimag_reload_last</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_reload_last</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_reload_ready" type="logic">
+            <obj_property name="ElementShortName">FIRimag_reload_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_reload_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_reload_valid" type="logic">
+            <obj_property name="ElementShortName">FIRimag_reload_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_reload_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_reload_data" type="array">
+            <obj_property name="ElementShortName">FIRimag_reload_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_reload_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_config_ready" type="logic">
+            <obj_property name="ElementShortName">FIRimag_config_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_config_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_config_valid" type="logic">
+            <obj_property name="ElementShortName">FIRimag_config_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_config_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_config_data" type="array">
+            <obj_property name="ElementShortName">FIRimag_config_data[7:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_config_data[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_data_valid" type="logic">
+            <obj_property name="ElementShortName">FIRimag_data_valid</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_data_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_data_ready" type="logic">
+            <obj_property name="ElementShortName">FIRimag_data_ready</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_data_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_data_data" type="array">
+            <obj_property name="ElementShortName">FIRimag_data_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_data_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/sdrController_0/U0/FIRimag_coef" type="array">
+            <obj_property name="ElementShortName">FIRimag_coef[95:0]</obj_property>
+            <obj_property name="ObjectShortName">FIRimag_coef[95:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group2547" type="group">
+         <obj_property name="label">ED Detector</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/correlator/FIRimag_slicer/dataOut1" type="array">
+            <obj_property name="ElementShortName">dataOut1[21:0]</obj_property>
+            <obj_property name="ObjectShortName">dataOut1[21:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/correlator/FIRimag_slicer/dataOut2" type="array">
+            <obj_property name="ElementShortName">dataOut2[21:0]</obj_property>
+            <obj_property name="ObjectShortName">dataOut2[21:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/correlator/FIRreal_slicer/dataOut1" type="array">
+            <obj_property name="ElementShortName">dataOut1[21:0]</obj_property>
+            <obj_property name="ObjectShortName">dataOut1[21:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ES_i/myFreqSDR_i/correlator/FIRreal_slicer/dataOut2" type="array">
+            <obj_property name="ElementShortName">dataOut2[21:0]</obj_property>
+            <obj_property name="ObjectShortName">dataOut2[21:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/detectedRepeat" type="logic">
+            <obj_property name="ElementShortName">detectedRepeat</obj_property>
+            <obj_property name="ObjectShortName">detectedRepeat</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/detectedSingle" type="logic">
+            <obj_property name="ElementShortName">detectedSingle</obj_property>
+            <obj_property name="ObjectShortName">detectedSingle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/xcorrSquare_in" type="array">
+            <obj_property name="ElementShortName">xcorrSquare_in[45:0]</obj_property>
+            <obj_property name="ObjectShortName">xcorrSquare_in[45:0]</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/xcorrSquareDivided" type="array">
+            <obj_property name="ElementShortName">xcorrSquareDivided[32:0]</obj_property>
+            <obj_property name="ObjectShortName">xcorrSquareDivided[32:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/normSquare_in" type="array">
+            <obj_property name="ElementShortName">normSquare_in[27:0]</obj_property>
+            <obj_property name="ObjectShortName">normSquare_in[27:0]</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+            <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+            <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+            <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+            <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+            <obj_property name="AnalogHorizLine">0.000000</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/detectorXcorr_0/U0/detectedMemory" type="array">
+            <obj_property name="ElementShortName">detectedMemory[80:0]</obj_property>
+            <obj_property name="ObjectShortName">detectedMemory[80:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/delayIQdataBy3/D" type="array">
+            <obj_property name="ElementShortName">D[0:0]</obj_property>
+            <obj_property name="ObjectShortName">D[0:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/delayIQdataBy3/CLK" type="logic">
+            <obj_property name="ElementShortName">CLK</obj_property>
+            <obj_property name="ObjectShortName">CLK</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/delayIQdataBy3/Q" type="array">
+            <obj_property name="ElementShortName">Q[0:0]</obj_property>
+            <obj_property name="ObjectShortName">Q[0:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/delayIQdataBy15/D" type="array">
+            <obj_property name="ElementShortName">D[23:0]</obj_property>
+            <obj_property name="ObjectShortName">D[23:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/delayIQdataBy15/Q" type="array">
+            <obj_property name="ElementShortName">Q[23:0]</obj_property>
+            <obj_property name="ObjectShortName">Q[23:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/delayIQdataBy15/CLK" type="logic">
+            <obj_property name="ElementShortName">CLK</obj_property>
+            <obj_property name="ObjectShortName">CLK</obj_property>
+         </wvobject>
+         <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/delayIQdataBy15/CE" type="logic">
+            <obj_property name="ElementShortName">CE</obj_property>
+            <obj_property name="ObjectShortName">CE</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/mySim/myFreqSDR_ED_i/myFreqSDR_i/correlator/fir_imag/aclk" type="logic">
+         <obj_property name="ElementShortName">aclk</obj_property>
+         <obj_property name="ObjectShortName">aclk</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Jan 23 11:42:26 2025
+# Process ID: 19908
+# Current directory: C:/cygwin64/home/alpha/adi/hdl/myLibrary/myMuxSimple
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24708 C:\cygwin64\home\alpha\adi\hdl\myLibrary\myMuxSimple\project_1.xpr
+# Log file: C:/cygwin64/home/alpha/adi/hdl/myLibrary/myMuxSimple/vivado.log
+# Journal file: C:/cygwin64/home/alpha/adi/hdl/myLibrary/myMuxSimple\vivado.jou
+# Running On: ORION, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34212 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/cygwin64/home/alpha/adi/hdl/myLibrary/myMuxSimple/project_1.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {C:\cygwin64\home\alpha\adi\hdl\myLibrary\myMuxSimple\component.xml}
+set_property name myMuxSimple [ipx::current_core]
+set_property display_name myMuxSimple_v1_0 [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property description myMuxSimple_v1_0 [ipx::current_core]
+ipx::merge_project_changes ports [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  c:/cygwin64/home/alpha/adi/hdl/myLibrary/myMuxSimple [current_project]
+update_ip_catalog

@@ -1,0 +1,3477 @@
+<html>
+<head>
+<title>IP Core Generation Report for monitor_64regs_2023b</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style type="text/css">
+table {
+	width: 100%;
+	border: 1px solid black;
+}
+
+div {
+	line-heigh: 90%;
+}
+
+h2.title {
+	color: #000066;
+	font-weight: bold;
+}
+
+h3.sectionHeading {
+	color: #000066;
+	font-weight: bold;
+}
+
+td.distinctCellColor {
+	background-color: #eeeeff;
+}
+
+td.summaryTableSndColOddRow {
+	background-color: #eeeeff;
+	text-align: right;
+}
+
+td.summaryTableSndColEvenRow {
+	text-align: right;
+}
+
+thead.reportTableHeader {
+	background-color: #eeeeee;
+	font-weight: bold;
+}
+
+</style>
+
+</head>
+<body>
+<h2 class="title">IP Core Generation Report for monitor_64regs_2023b</h2>
+<div>
+<h3 class="sectionHeading">Summary</h3>
+<table>
+<tbody>
+<tr>
+<td class="distinctCellColor">IP core name
+</td>
+<td class="summaryTableSndColOddRow">monitor_64regs
+</td>
+</tr>
+<tr>
+<td>IP core version
+</td>
+<td class="summaryTableSndColEvenRow">1.0
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">IP core folder
+</td>
+<td class="summaryTableSndColOddRow"><a href="matlab:uiopen('hdl_prj\ipcore\monitor_64regs_v1_0\*.*')">hdl_prj\ipcore\monitor_64regs_v1_0</a>
+</td>
+</tr>
+<tr>
+<td>IP core zip file name
+</td>
+<td class="summaryTableSndColEvenRow">monitor_64regs_v1_0.zip
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">Target platform
+</td>
+<td class="summaryTableSndColOddRow">Generic Xilinx Platform
+</td>
+</tr>
+<tr>
+<td>Target tool
+</td>
+<td class="summaryTableSndColEvenRow">Xilinx Vivado
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">Target language
+</td>
+<td class="summaryTableSndColOddRow">VHDL
+</td>
+</tr>
+<tr>
+<td>Model
+</td>
+<td class="summaryTableSndColEvenRow"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b')">monitor_64regs_2023b</a>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">Model version
+</td>
+<td class="summaryTableSndColOddRow">3.5
+</td>
+</tr>
+<tr>
+<td>HDL Coder version
+</td>
+<td class="summaryTableSndColEvenRow">23.2
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">IP core generated on
+</td>
+<td class="summaryTableSndColOddRow">08-Oct-2025 14:50:32
+</td>
+</tr>
+<tr>
+<td>IP core generated for
+</td>
+<td class="summaryTableSndColEvenRow"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:7')">monitor_64regs_dut</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<h3 class="sectionHeading">Target Interface Configuration</h3>
+You chose the following target interface configuration for 
+<a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b')">monitor_64regs_2023b</a>
+:
+<br/><br/>
+Processor/FPGA synchronization mode: 
+<b>Free running</b>
+<br/><br/>
+Target platform interface table:
+<br/>
+<table>
+<thead class="reportTableHeader">
+<tr>
+<td>Port Name
+</td>
+<td>Port Type
+</td>
+<td>Data Type
+</td>
+<td>Target Platform Interfaces
+</td>
+<td>Interface Mapping
+</td>
+<td>Interface Options
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:8')">dataWriteAXI0</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"100"
+</td>
+<td>RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:80')">dataWriteAXI1</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"104"
+</td>
+<td class="distinctCellColor">RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:81')">dataWriteAXI2</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"108"
+</td>
+<td>RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:82')">dataWriteAXI3</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"10C"
+</td>
+<td class="distinctCellColor">RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:83')">dataWriteAXI4</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"110"
+</td>
+<td>RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:84')">dataWriteAXI5</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"114"
+</td>
+<td class="distinctCellColor">RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:85')">dataWriteAXI6</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"118"
+</td>
+<td>RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:86')">dataWriteAXI7</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"11C"
+</td>
+<td class="distinctCellColor">RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:87')">dataRead0</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:107')">dataRead1</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:108')">dataRead2</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:110')">dataRead3</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:111')">dataRead4</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:112')">dataRead5</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:113')">dataRead6</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:114')">dataRead7</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:201')">dataRead8</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:202')">dataRead9</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:203')">dataRead10</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:204')">dataRead11</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:205')">dataRead12</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:206')">dataRead13</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:207')">dataRead14</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:208')">dataRead15</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:209')">dataWriteAXI8</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"120"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:210')">dataWriteAXI9</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"124"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:211')">dataWriteAXI10</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"128"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:212')">dataWriteAXI11</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"12C"
+</td>
+<td class="distinctCellColor">RegisterInitialValue 0 EnableReadback inherit
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:213')">dataWriteAXI12</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"130"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:214')">dataWriteAXI13</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"134"
+</td>
+<td class="distinctCellColor">RegisterInitialValue 0 EnableReadback inherit
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:215')">dataWriteAXI14</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"138"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:216')">dataWriteAXI15</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"13C"
+</td>
+<td class="distinctCellColor">RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:265')">dataWriteAXI16</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"140"
+</td>
+<td>RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:266')">dataWriteAXI17</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"144"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:267')">dataWriteAXI18</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"148"
+</td>
+<td>RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:268')">dataWriteAXI19</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"14C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:269')">dataWriteAXI20</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"150"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:270')">dataWriteAXI21</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"154"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:271')">dataWriteAXI22</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"158"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:272')">dataWriteAXI23</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"15C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:289')">dataRead16</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:290')">dataRead17</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:291')">dataRead18</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:292')">dataRead19</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:293')">dataRead20</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:294')">dataRead21</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:295')">dataRead22</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:296')">dataRead23</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:761')">dataWriteAXI24</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"160"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:762')">dataWriteAXI25</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"164"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:763')">dataWriteAXI26</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"168"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:764')">dataWriteAXI27</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"16C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:765')">dataWriteAXI28</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"170"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:766')">dataWriteAXI29</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"174"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:767')">dataWriteAXI30</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"178"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:768')">dataWriteAXI31</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"17C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:769')">dataWriteAXI32</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"180"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:770')">dataWriteAXI33</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"184"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:771')">dataWriteAXI34</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"188"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:772')">dataWriteAXI35</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"18C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:773')">dataWriteAXI36</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"190"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:774')">dataWriteAXI37</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"194"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:775')">dataWriteAXI38</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"198"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:776')">dataWriteAXI39</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"19C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:777')">dataWriteAXI40</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1A0"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:778')">dataWriteAXI41</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1A4"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:779')">dataWriteAXI42</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1A8"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:780')">dataWriteAXI43</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1AC"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:781')">dataWriteAXI44</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1B0"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:782')">dataWriteAXI45</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1B4"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:783')">dataWriteAXI46</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1B8"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:784')">dataWriteAXI47</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1BC"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:833')">dataWriteAXI48</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1C0"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:834')">dataWriteAXI49</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1C4"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:835')">dataWriteAXI50</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1C8"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:836')">dataWriteAXI51</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1CC"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:837')">dataWriteAXI52</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1D0"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:838')">dataWriteAXI53</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1D4"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:839')">dataWriteAXI54</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1D8"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:840')">dataWriteAXI55</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1DC"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:841')">dataWriteAXI56</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1E0"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:842')">dataWriteAXI57</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1E4"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:843')">dataWriteAXI58</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1E8"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:844')">dataWriteAXI59</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1EC"
+</td>
+<td class="distinctCellColor">RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:845')">dataWriteAXI60</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1F0"
+</td>
+<td>RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:846')">dataWriteAXI61</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1F4"
+</td>
+<td class="distinctCellColor">RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:847')">dataWriteAXI62</a>
+</td>
+<td>Inport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"1F8"
+</td>
+<td>RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:848')">dataWriteAXI63</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"1FC"
+</td>
+<td class="distinctCellColor">RegisterInitialValue 0 EnableReadback on
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:49')">dataWrite0</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:115')">dataWrite1</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:116')">dataWrite2</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:118')">dataWrite3</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:119')">dataWrite4</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:120')">dataWrite5</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:121')">dataWrite6</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:122')">dataWrite7</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:123')">dataReadAXI0</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"200"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:124')">dataReadAXI1</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"204"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:125')">dataReadAXI2</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"208"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:126')">dataReadAXI3</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"20C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:127')">dataReadAXI4</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"210"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:128')">dataReadAXI5</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"214"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:129')">dataReadAXI6</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"218"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:130')">dataReadAXI7</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"21C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:185')">dataWrite8</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:186')">dataWrite9</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:187')">dataWrite10</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:188')">dataWrite11</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:189')">dataWrite12</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:190')">dataWrite13</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:191')">dataWrite14</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:192')">dataWrite15</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:193')">dataReadAXI8</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"220"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:194')">dataReadAXI9</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"224"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:195')">dataReadAXI10</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"228"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:196')">dataReadAXI11</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"22C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:197')">dataReadAXI12</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"230"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:198')">dataReadAXI13</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"234"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:199')">dataReadAXI14</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"238"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:200')">dataReadAXI15</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"23C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:273')">dataWrite16</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:274')">dataWrite17</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:275')">dataWrite18</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:276')">dataWrite19</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:277')">dataWrite20</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:278')">dataWrite21</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:279')">dataWrite22</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:280')">dataWrite23</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:297')">dataReadAXI16</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"240"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:298')">dataReadAXI17</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"244"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:299')">dataReadAXI18</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"248"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:300')">dataReadAXI19</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"24C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:301')">dataReadAXI20</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"250"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:302')">dataReadAXI21</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"254"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:303')">dataReadAXI22</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>AXI4-Lite
+</td>
+<td>x"258"
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:304')">dataReadAXI23</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">AXI4-Lite
+</td>
+<td class="distinctCellColor">x"25C"
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:713')">dataWrite24</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:714')">dataWrite25</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:715')">dataWrite26</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:716')">dataWrite27</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:717')">dataWrite28</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:718')">dataWrite29</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:719')">dataWrite30</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:720')">dataWrite31</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:721')">dataWrite32</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:722')">dataWrite33</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:723')">dataWrite34</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:724')">dataWrite35</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:725')">dataWrite36</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:726')">dataWrite37</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:727')">dataWrite38</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:728')">dataWrite39</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:729')">dataWrite40</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:730')">dataWrite41</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:731')">dataWrite42</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:732')">dataWrite43</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:733')">dataWrite44</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:734')">dataWrite45</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:735')">dataWrite46</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:736')">dataWrite47</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:737')">dataWrite48</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:738')">dataWrite49</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:739')">dataWrite50</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:740')">dataWrite51</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:741')">dataWrite52</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:742')">dataWrite53</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:743')">dataWrite54</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:744')">dataWrite55</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:745')">dataWrite56</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:746')">dataWrite57</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:747')">dataWrite58</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:748')">dataWrite59</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:749')">dataWrite60</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:750')">dataWrite61</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:751')">dataWrite62</a>
+</td>
+<td>Outport
+</td>
+<td>uint32
+</td>
+<td>External Port
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('monitor_64regs_2023b:752')">dataWrite63</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">uint32
+</td>
+<td class="distinctCellColor">External Port
+</td>
+<td class="distinctCellColor">
+</td>
+<td class="distinctCellColor">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<h3 class="sectionHeading">Register Address Mapping</h3>
+The following AXI4-Lite bus accessible registers were generated for this IP core:
+<br/><br/>
+<table>
+<thead class="reportTableHeader">
+<tr>
+<td>Register Name
+</td>
+<td>Address Offset
+</td>
+<td>Description
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IPCore_Reset
+</td>
+<td>0x0
+</td>
+<td>write 0x1 to bit 0 to reset IP core
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">IPCore_Enable
+</td>
+<td class="distinctCellColor">0x4
+</td>
+<td class="distinctCellColor">enabled (by default) when bit 0 is 0x1
+</td>
+</tr>
+<tr>
+<td>IPCore_Timestamp
+</td>
+<td>0x8
+</td>
+<td>contains unique IP timestamp (yymmddHHMM): 2510081449: 2510081450
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI0_Data
+</td>
+<td class="distinctCellColor">0x100
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI0
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI1_Data
+</td>
+<td>0x104
+</td>
+<td>data register for Inport dataWriteAXI1
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI2_Data
+</td>
+<td class="distinctCellColor">0x108
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI2
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI3_Data
+</td>
+<td>0x10C
+</td>
+<td>data register for Inport dataWriteAXI3
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI4_Data
+</td>
+<td class="distinctCellColor">0x110
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI4
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI5_Data
+</td>
+<td>0x114
+</td>
+<td>data register for Inport dataWriteAXI5
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI6_Data
+</td>
+<td class="distinctCellColor">0x118
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI6
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI7_Data
+</td>
+<td>0x11C
+</td>
+<td>data register for Inport dataWriteAXI7
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI8_Data
+</td>
+<td class="distinctCellColor">0x120
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI8
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI9_Data
+</td>
+<td>0x124
+</td>
+<td>data register for Inport dataWriteAXI9
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI10_Data
+</td>
+<td class="distinctCellColor">0x128
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI10
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI11_Data
+</td>
+<td>0x12C
+</td>
+<td>data register for Inport dataWriteAXI11
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI12_Data
+</td>
+<td class="distinctCellColor">0x130
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI12
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI13_Data
+</td>
+<td>0x134
+</td>
+<td>data register for Inport dataWriteAXI13
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI14_Data
+</td>
+<td class="distinctCellColor">0x138
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI14
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI15_Data
+</td>
+<td>0x13C
+</td>
+<td>data register for Inport dataWriteAXI15
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI16_Data
+</td>
+<td class="distinctCellColor">0x140
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI16
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI17_Data
+</td>
+<td>0x144
+</td>
+<td>data register for Inport dataWriteAXI17
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI18_Data
+</td>
+<td class="distinctCellColor">0x148
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI18
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI19_Data
+</td>
+<td>0x14C
+</td>
+<td>data register for Inport dataWriteAXI19
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI20_Data
+</td>
+<td class="distinctCellColor">0x150
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI20
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI21_Data
+</td>
+<td>0x154
+</td>
+<td>data register for Inport dataWriteAXI21
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI22_Data
+</td>
+<td class="distinctCellColor">0x158
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI22
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI23_Data
+</td>
+<td>0x15C
+</td>
+<td>data register for Inport dataWriteAXI23
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI24_Data
+</td>
+<td class="distinctCellColor">0x160
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI24
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI25_Data
+</td>
+<td>0x164
+</td>
+<td>data register for Inport dataWriteAXI25
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI26_Data
+</td>
+<td class="distinctCellColor">0x168
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI26
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI27_Data
+</td>
+<td>0x16C
+</td>
+<td>data register for Inport dataWriteAXI27
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI28_Data
+</td>
+<td class="distinctCellColor">0x170
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI28
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI29_Data
+</td>
+<td>0x174
+</td>
+<td>data register for Inport dataWriteAXI29
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI30_Data
+</td>
+<td class="distinctCellColor">0x178
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI30
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI31_Data
+</td>
+<td>0x17C
+</td>
+<td>data register for Inport dataWriteAXI31
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI32_Data
+</td>
+<td class="distinctCellColor">0x180
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI32
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI33_Data
+</td>
+<td>0x184
+</td>
+<td>data register for Inport dataWriteAXI33
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI34_Data
+</td>
+<td class="distinctCellColor">0x188
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI34
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI35_Data
+</td>
+<td>0x18C
+</td>
+<td>data register for Inport dataWriteAXI35
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI36_Data
+</td>
+<td class="distinctCellColor">0x190
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI36
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI37_Data
+</td>
+<td>0x194
+</td>
+<td>data register for Inport dataWriteAXI37
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI38_Data
+</td>
+<td class="distinctCellColor">0x198
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI38
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI39_Data
+</td>
+<td>0x19C
+</td>
+<td>data register for Inport dataWriteAXI39
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI40_Data
+</td>
+<td class="distinctCellColor">0x1A0
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI40
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI41_Data
+</td>
+<td>0x1A4
+</td>
+<td>data register for Inport dataWriteAXI41
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI42_Data
+</td>
+<td class="distinctCellColor">0x1A8
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI42
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI43_Data
+</td>
+<td>0x1AC
+</td>
+<td>data register for Inport dataWriteAXI43
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI44_Data
+</td>
+<td class="distinctCellColor">0x1B0
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI44
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI45_Data
+</td>
+<td>0x1B4
+</td>
+<td>data register for Inport dataWriteAXI45
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI46_Data
+</td>
+<td class="distinctCellColor">0x1B8
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI46
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI47_Data
+</td>
+<td>0x1BC
+</td>
+<td>data register for Inport dataWriteAXI47
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI48_Data
+</td>
+<td class="distinctCellColor">0x1C0
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI48
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI49_Data
+</td>
+<td>0x1C4
+</td>
+<td>data register for Inport dataWriteAXI49
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI50_Data
+</td>
+<td class="distinctCellColor">0x1C8
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI50
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI51_Data
+</td>
+<td>0x1CC
+</td>
+<td>data register for Inport dataWriteAXI51
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI52_Data
+</td>
+<td class="distinctCellColor">0x1D0
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI52
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI53_Data
+</td>
+<td>0x1D4
+</td>
+<td>data register for Inport dataWriteAXI53
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI54_Data
+</td>
+<td class="distinctCellColor">0x1D8
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI54
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI55_Data
+</td>
+<td>0x1DC
+</td>
+<td>data register for Inport dataWriteAXI55
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI56_Data
+</td>
+<td class="distinctCellColor">0x1E0
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI56
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI57_Data
+</td>
+<td>0x1E4
+</td>
+<td>data register for Inport dataWriteAXI57
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI58_Data
+</td>
+<td class="distinctCellColor">0x1E8
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI58
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI59_Data
+</td>
+<td>0x1EC
+</td>
+<td>data register for Inport dataWriteAXI59
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI60_Data
+</td>
+<td class="distinctCellColor">0x1F0
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI60
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI61_Data
+</td>
+<td>0x1F4
+</td>
+<td>data register for Inport dataWriteAXI61
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataWriteAXI62_Data
+</td>
+<td class="distinctCellColor">0x1F8
+</td>
+<td class="distinctCellColor">data register for Inport dataWriteAXI62
+</td>
+</tr>
+<tr>
+<td>dataWriteAXI63_Data
+</td>
+<td>0x1FC
+</td>
+<td>data register for Inport dataWriteAXI63
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI0_Data
+</td>
+<td class="distinctCellColor">0x200
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI0
+</td>
+</tr>
+<tr>
+<td>dataReadAXI1_Data
+</td>
+<td>0x204
+</td>
+<td>data register for Outport dataReadAXI1
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI2_Data
+</td>
+<td class="distinctCellColor">0x208
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI2
+</td>
+</tr>
+<tr>
+<td>dataReadAXI3_Data
+</td>
+<td>0x20C
+</td>
+<td>data register for Outport dataReadAXI3
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI4_Data
+</td>
+<td class="distinctCellColor">0x210
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI4
+</td>
+</tr>
+<tr>
+<td>dataReadAXI5_Data
+</td>
+<td>0x214
+</td>
+<td>data register for Outport dataReadAXI5
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI6_Data
+</td>
+<td class="distinctCellColor">0x218
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI6
+</td>
+</tr>
+<tr>
+<td>dataReadAXI7_Data
+</td>
+<td>0x21C
+</td>
+<td>data register for Outport dataReadAXI7
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI8_Data
+</td>
+<td class="distinctCellColor">0x220
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI8
+</td>
+</tr>
+<tr>
+<td>dataReadAXI9_Data
+</td>
+<td>0x224
+</td>
+<td>data register for Outport dataReadAXI9
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI10_Data
+</td>
+<td class="distinctCellColor">0x228
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI10
+</td>
+</tr>
+<tr>
+<td>dataReadAXI11_Data
+</td>
+<td>0x22C
+</td>
+<td>data register for Outport dataReadAXI11
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI12_Data
+</td>
+<td class="distinctCellColor">0x230
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI12
+</td>
+</tr>
+<tr>
+<td>dataReadAXI13_Data
+</td>
+<td>0x234
+</td>
+<td>data register for Outport dataReadAXI13
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI14_Data
+</td>
+<td class="distinctCellColor">0x238
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI14
+</td>
+</tr>
+<tr>
+<td>dataReadAXI15_Data
+</td>
+<td>0x23C
+</td>
+<td>data register for Outport dataReadAXI15
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI16_Data
+</td>
+<td class="distinctCellColor">0x240
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI16
+</td>
+</tr>
+<tr>
+<td>dataReadAXI17_Data
+</td>
+<td>0x244
+</td>
+<td>data register for Outport dataReadAXI17
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI18_Data
+</td>
+<td class="distinctCellColor">0x248
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI18
+</td>
+</tr>
+<tr>
+<td>dataReadAXI19_Data
+</td>
+<td>0x24C
+</td>
+<td>data register for Outport dataReadAXI19
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI20_Data
+</td>
+<td class="distinctCellColor">0x250
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI20
+</td>
+</tr>
+<tr>
+<td>dataReadAXI21_Data
+</td>
+<td>0x254
+</td>
+<td>data register for Outport dataReadAXI21
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">dataReadAXI22_Data
+</td>
+<td class="distinctCellColor">0x258
+</td>
+<td class="distinctCellColor">data register for Outport dataReadAXI22
+</td>
+</tr>
+<tr>
+<td>dataReadAXI23_Data
+</td>
+<td>0x25C
+</td>
+<td>data register for Outport dataReadAXI23
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+The AXI4 slave write register readback is ON for the IP core.
+<br/>
+The register address mapping is also in the following C header file for you to use when programming the processor:
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\include\monitor_64regs_addr.h')">include\monitor_64regs_addr.h</a>
+<br/>
+The IP core name is appended to the register names to avoid name conflicts.
+</div>
+<div>
+<h3 class="sectionHeading">IP Core User Guide</h3>
+<b>Theory of Operation</b>
+<br/><br/>
+This IP core is designed to be connected to an embedded processor with an 
+<b>AXI4-Lite interface. </b>
+The processor acts as master, and the IP core acts as slave. By accessing the generated registers via the AXI4-Lite interface, the processor can control the IP core, and read and write data from and to the IP core. 
+<br/><br/>
+For example, to reset the IP core, write 0x1 to the bit 0 of IPCore_Reset register. To enable or disable the IP core, write 0x1 or 0x0 to the IPCore_Enable register. To access the data ports of the MATLAB/Simulink algorithm, read or write to the associated data registers.
+<br/><br/>
+<img src="doc_arch_axi4_lite.jpg"/>
+<br/><br/>
+This IP core also support the 
+<b>External Port </b>
+interface. To connect the external ports to the FPGA external IO pins, add FPGA pin assignment constraints in the Xilinx Vivado environment.
+<br/><br/>
+The AXI4 Slave port to pipeline register ratio selected as 35 in task 3.2 for this model. The default delay to read AXI4 register is one clock cycle.
+Depending on the selected ratio and IO connected to AXI4 interface, register pipelining is introduced in the read logic of AXI4 registers.
+This adds the extra delay along with the default delay in the read logic.
+For this model readable AXI4 slave registers are 90 and read delay for each AXI4 register is 3 clock cycle.
+Following diagram depicts the read functionality of the AXI4 registers.
+<br/><br/>
+<img src="doc_arch_axi4_Pipeline_Register.jpg"/>
+<br/><br/>
+<br/><br/>
+<b>Processor/FPGA Synchronization</b>
+<br/><br/>
+The 
+<b>Free running </b>
+mode means there is no explicit synchronization between embedded processor software execution (SW) and the IP core (HW). SW and HW runs independently. The data written from the processor to IP core takes effect immediately, and the data read from the IP core is the latest data available on the IP core output ports. 
+<br/><br/>
+<img src="free_running.jpg"/>
+<br/><br/>
+<b>Xilinx Vivado Environment Integration</b>
+<br/><br/>
+This IP Core is generated for the Xilinx Vivado environment. The following steps are an example showing how to integrate the generated IP core into Xilinx Vivado environment:
+<br/><br/>
+1. The generated IP core is a zip package file under the IP core folder. Please check the Summary section of this report for the IP zip file name and folder.
+<br/>
+2. In the Vivado project, go to Project Settings -> IP -> Repository Manager, add the folder containing the IP zip file as IP Repository.
+<br/>
+3. In Repository Manger, click the "Add IP" button to add IP zip file to the IP repository. This step adds the generated IP into the Vivado IP Catalog.
+<br/>
+4. In the Vivado project, find the generated IP core in the IP Catalog under category "HDL Coder Generated IP". In you have a Vivado block design open, you can add the generated IP into your block design.
+<br/>
+5. Connect the AXI4-Lite port of the IP core to the embedded processor's AXI master port.
+<br/>
+6. Connect the clock and reset ports of the IP core to the global clock and reset signals.
+<br/>
+7. Assign an Offset Address for the IP core in the Address Editor.
+<br/>
+8. Connect external ports and add FPGA pin assignment constraints to constraint file.
+<br/>
+9. Generate FPGA bitstream and download the bitstream to target device.
+<br/><br/>
+If you are targeting Xilinx Zynq hardwares supported by HDL Coder Support Package for Xilinx Zynq Platform, you can select the board you are using in the Target platform option in the Set Target > Set Target Device and Synthesis Tool task. You can then use Embedded System Integration tasks in HDL Workflow Advisor to help you integrate the generated IP core into Xilinx Vivado environment.
+</div>
+<div>
+<h3 class="sectionHeading">IP Core File List</h3>
+The IP core folder is located at:
+<br/>
+<a href="matlab:uiopen('hdl_prj\ipcore\monitor_64regs_v1_0\*.*')">hdl_prj\ipcore\monitor_64regs_v1_0</a>
+<br/>
+Following files are generated under this folder:
+<br/><br/>
+<b>IP core zip file</b>
+<br/>
+<a href="matlab:uiopen('hdl_prj\ipcore\monitor_64regs_v1_0\*.*')">monitor_64regs_v1_0.zip</a>
+<br/><br/>
+<b>IP core report</b>
+<br/>
+<a href="matlab:web('hdl_prj\ipcore\monitor_64regs_v1_0\doc\monitor_64regs_2023b_ip_core_report.html')">doc\monitor_64regs_2023b_ip_core_report.html</a>
+<br/><br/>
+<b>IP core HDL source files</b>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\hdl\monitor_64regs_src_MATLAB_Function.vhd')">hdl\monitor_64regs_src_MATLAB_Function.vhd</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\hdl\monitor_64regs_src_monitor_64regs_dut.vhd')">hdl\monitor_64regs_src_monitor_64regs_dut.vhd</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\hdl\monitor_64regs_pkg.vhd')">hdl\monitor_64regs_pkg.vhd</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\hdl\monitor_64regs_reset_sync.vhd')">hdl\monitor_64regs_reset_sync.vhd</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\hdl\monitor_64regs_dut.vhd')">hdl\monitor_64regs_dut.vhd</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\hdl\monitor_64regs_addr_decoder.vhd')">hdl\monitor_64regs_addr_decoder.vhd</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\hdl\monitor_64regs_axi_lite_module.vhd')">hdl\monitor_64regs_axi_lite_module.vhd</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\hdl\monitor_64regs_axi_lite.vhd')">hdl\monitor_64regs_axi_lite.vhd</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\hdl\monitor_64regs.vhd')">hdl\monitor_64regs.vhd</a>
+<br/>
+<br/>
+<b>IP core C header file</b>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\monitor_64regs_v1_0\include\monitor_64regs_addr.h')">include\monitor_64regs_addr.h</a>
+</div>
+</body>
+</html>

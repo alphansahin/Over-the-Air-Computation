@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Apr 18 17:29:22 2025
+# Process ID: 33140
+# Current directory: C:/Dropbox/Work/Project_FederatedLearning/paper_synchronousSDR_coherent/development_HDL/myCorrelator/hdl_prj/ipcore/myCorrelator_ip_v1_0/prj_ip
+# Command line: vivado.exe -mode batch -notrace -source vivado_ip_package.tcl
+# Log file: C:/Dropbox/Work/Project_FederatedLearning/paper_synchronousSDR_coherent/development_HDL/myCorrelator/hdl_prj/ipcore/myCorrelator_ip_v1_0/prj_ip/vivado.log
+# Journal file: C:/Dropbox/Work/Project_FederatedLearning/paper_synchronousSDR_coherent/development_HDL/myCorrelator/hdl_prj/ipcore/myCorrelator_ip_v1_0/prj_ip\vivado.jou
+# Running On: ORION, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34212 MB
+#-----------------------------------------------------------
+source vivado_ip_package.tcl -notrace
