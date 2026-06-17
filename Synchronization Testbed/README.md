@@ -1,5 +1,7 @@
 # Synchronization Testbed
-There are so many details for the structure of testbed. So there may be many unanswered question at this time... I have submitted some papers about the testbed and a new OAC scheme. I will try to share more details over time.
+There are so many details for the structure of the testbed. So there may be many unanswered questions at this time... I have submitted some papers about the testbed and a new OAC scheme. I will try to share more details over time.
+
+The most comprehensive discussion at the moment is available at https://arxiv.org/abs/2606.18085
 
 
 ![Testbed structure](https://github.com/alphansahin/Over-the-Air-Computation/blob/main/Synchronization%20Testbed/testbedStructure.jpg?raw=true)
