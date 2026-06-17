@@ -8,7 +8,7 @@ Maybe a quick answer to an important question: the testbed does not maintain tim
 
 ![Testbed structure](https://github.com/alphansahin/Over-the-Air-Computation/blob/main/Synchronization%20Testbed/testbedStructure.jpg?raw=true)
 
-however, briefly...
+Briefly...
 
 The platform hosts twenty Adalm Pluto (Rev. C) SDRs mounted on the ceiling, each representing a node (or an edge device (ED)), and one SDR as the fusion node (or edge server (ES)). On the platform, each SDR has a dedicated host computer: NVIDIA Jetson Nano computers for the EDs and an Intel NUC for the ES. We also use an unmanaged network switch to enable communication between the host computers and to upload Python code to the EDs from the ES side. We use a specific user interface, shown below, running on the ES side. Through the user interface, we dynamically interact with the ES to initiate the protocol for coherent aggregation and its subroutines, observe the results, and monitor the SDR parameters. The user interface also allows us to read the parameters of the EDs’ SDRs over a local area network (LAN). However, we do not manually set the parameters for measurement plausibility.
 
